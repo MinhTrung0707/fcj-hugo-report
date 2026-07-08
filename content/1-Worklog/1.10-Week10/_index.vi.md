@@ -1,59 +1,38 @@
 ---
-title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+title: "Worklog tuần 10"
+date: 2026-06-28
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Đóng băng mã nguồn (Code Freeze) và tiến hành rà soát tổng thể hạ tầng mạng trước khi đưa lên môi trường thật.
+* Đánh giá bảo mật và hiệu chỉnh lại toàn bộ file cấu hình hạ tầng (YAML).
+* Hoàn thiện bản vẽ Sơ đồ kiến trúc (Architecture Diagram) phiên bản cuối cùng.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Rà soát mã nguồn hạ tầng (IaC) <br>&emsp; + Phân tích và kiểm tra toàn bộ file YAML cấu hình mạng (VPC, Subnet, Route Table) do team cung cấp. <br>&emsp; + Tổng hợp các điểm chưa hợp lý, đối chiếu cấu trúc và lập báo cáo đánh giá, đề xuất chỉnh sửa file YAML. | 22/06/2026 | 23/06/2026 | |
+| 4 | - Hoàn thiện Sơ đồ Kiến trúc <br>&emsp; + Cập nhật và tinh chỉnh sơ đồ kiến trúc (Minisocial Architect) phiên bản chốt hạ dựa trên hạ tầng thực tế sau khi Rebuild. <br>&emsp; + Bổ sung đầy đủ các luồng kết nối và dịch vụ mới (NAT Gateway, S3 VPC Endpoint) vào bản vẽ. | 24/06/2026 | 25/06/2026 | 	https://aws.amazon.com/vi/architecture/icons/ |
+| 6 | - Đánh giá bảo mật luồng mạng đám mây (Network Security Review) <br>&emsp; + Rà soát lại toàn bộ Inbound/Outbound rules của Security Group và Network ACL trên VPC để đảm bảo không bị hở các port không cần thiết ở lớp Public Subnet. <br>&emsp; + Kiểm tra luồng kết nối mạng nội bộ giữa cụm Compute (Amazon ECS Fargate) và Database (Amazon RDS) để đảm bảo tính an toàn dữ liệu. | 26/06/2026 | 26/06/2026 |  |
 
 ### Kết quả đạt được tuần 10:
+* Hoàn thành báo cáo đánh giá và chỉnh sửa thành công các lỗi cấu hình trong file YAML.
+* Xuất bản thành công Sơ đồ Kiến trúc (Architecture Diagram) phiên bản hoàn chỉnh nhất, phản ánh chính xác 100% hạ tầng mạng hiện tại.
+* Hoàn tất rà soát bảo mật hạ tầng mạng, cập nhật trạng thái công việc thành hoàn tất (DONE) đúng thời hạn (Deadline 23:59 ngày 23/06).
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Hoạt động khác / Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+#### 1. Hoàn thành Task phân công Tuần 10
+Đã hoàn tất các hạng mục "Phân tích và kiểm tra toàn bộ file YAML" và "Hoàn thiện sơ đồ Architect". Trạng thái công việc trên hệ thống theo dõi của nhóm đã chuyển sang xanh (DONE). 
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+*(Ghi chú: Nhóm đã chủ động tổ chức họp trực tiếp bên ngoài (Cafe Sync-up) vào ngày 26/06 để chốt hạ các lỗi trong file YAML và thống nhất bản vẽ kiến trúc cuối cùng trước khi đưa lên môi trường thật. Bảng trạng thái cập nhật DONE dưới đây là minh chứng cho kết quả của buổi làm việc)*.
+![Bảng theo dõi tiến độ công việc Tuần 10](/images/Tuan10-1.png)
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+![Đã gửi lên group zalo](/images/Tuan10.png)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+#### 2. Sơ đồ Kiến trúc Hệ thống (Bản cập nhật cuối cùng)
+Bản vẽ kiến trúc mạng tổng thể đã được tinh chỉnh, bổ sung các thành phần mới sau quá trình Rebuild và Security Audit. Đây là thành quả trực tiếp từ quá trình rà soát hạ tầng, sẵn sàng làm tài liệu chính thức cho buổi bảo vệ dự án.
+![Sơ đồ kiến trúc đã chỉnh sửa chi tiết](/images/SoDoKienTrucDaChinhSua.drawio.png)

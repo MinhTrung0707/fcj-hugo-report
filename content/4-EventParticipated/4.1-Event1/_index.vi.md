@@ -1,125 +1,88 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "FCAJ Community day - May 2026"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+![Hình ảnh sự kiện tầng 36 - Phần 2](/images/Evt_1.png)
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “FCAJ Community day - May 2026”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Khởi động và kết nối cộng đồng trong khuôn khổ chương trình First Cloud AI Journey (FCAJ).
+- Khám phá các công nghệ đổi mới trên nền tảng đám mây và ứng dụng trí tuệ nhân tạo.
+- Tìm hiểu chuyên sâu về tầm quan trọng của ngữ cảnh trong AI ("Context Is Everything") và khái niệm "Bộ não AI thứ hai" (Second AI Brain).
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Anh Tịnh** - Build second brain
+- **Hải Anh** - Friendly AI Assistant with Amazon Q
+- **Anh Thịnh** - From Edge To Origin: CloudFront as Your Foundation
+- **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
+- **Đào Đức** - Deep dive talk: How LLM actually works?
+- **Cát Vy** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Context Is Everything (Ngữ cảnh là tất cả)
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Vai trò cốt lõi của context (ngữ cảnh) trong việc giúp các mô hình ngôn ngữ lớn (LLMs) hiểu yêu cầu và đưa ra phản hồi chính xác, tránh hiện tượng "hallucination".
+- Cách lưu trữ và quản lý bộ nhớ cho AI (AI memory) để duy trì tính liên tục và logic trong các chuỗi hội thoại phức tạp.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Khái niệm "Second AI Brain" (Bộ não AI thứ hai)
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Phương pháp xây dựng một hệ thống tri thức bên ngoài để hỗ trợ LLMs (như kỹ thuật RAG - Retrieval-Augmented Generation).
+- Cách AI có thể truy xuất nguồn dữ liệu an toàn của doanh nghiệp hoặc cá nhân để đưa ra các quyết định thông minh hơn mà không cần tốn chi phí huấn luyện lại (fine-tune) toàn bộ mô hình.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Cloud Innovation và Sự phát triển của AI
 
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- Tích hợp các giải pháp trí tuệ nhân tạo vào hệ sinh thái điện toán đám mây.
+- Giới thiệu các kiến trúc và công nghệ lưu trữ dữ liệu giúp tối ưu hóa khả năng truy xuất cho AI.
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+#### Tư Duy Thiết Kế Hệ Thống Trí Tuệ Nhân Tạo
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- Hiểu được rằng một mô hình AI mạnh mẽ là chưa đủ; hệ thống cần có cơ chế cung cấp ngữ cảnh (Context) chính xác, bảo mật và kịp thời.
+- Nhận thức được tầm quan trọng của việc cá nhân hóa trải nghiệm thông qua "AI memory".
 
-#### Kiến Trúc Kỹ Thuật
+#### Kiến Trúc Kỹ Thuật Thực Tế
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Nắm được luồng hoạt động cơ bản khi kết nối cơ sở dữ liệu với các mô hình ngôn ngữ lớn để tạo thành một "Second AI Brain" hiệu quả.
+- Cách thiết kế các ứng dụng AI có khả năng mở rộng (scalable) khi chạy trên nền tảng Cloud.
 
-#### Chiến Lược Hiện Đại Hóa
+### Ứng Dụng Vào Công Việc / Học Tập
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Nghiên cứu áp dụng kiến trúc "Second AI Brain":** Lên ý tưởng tích hợp RAG hoặc AI memory vào các đồ án môn học hoặc dự án quản lý hiện tại để giúp hệ thống thông minh hơn.
+- **Quản trị cơ sở dữ liệu:** Tìm hiểu thêm về Vector Databases và cách lưu trữ context tối ưu cho các project ứng dụng AI.
+- **Thực hành trên môi trường Cloud:** Tích cực ứng dụng các dịch vụ liên quan để hiện thực hóa các kiến trúc được giới thiệu vào môi trường thực tế.
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia **FCAJ Community day - May 2026** tại Bitexco Financial Tower là một trải nghiệm thực tế tuyệt vời, giúp tôi tiến gần hơn với môi trường công nghệ chuyên nghiệp và các xu hướng AI tiên tiến nhất hiện nay. Một số trải nghiệm nổi bật:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ các chuyên gia ngành Cloud và AI
+- Trực tiếp lắng nghe các chia sẻ chuyên sâu về cách giải quyết bài toán "trí nhớ" cho AI, những thách thức thực tế mà các kỹ sư đang đối mặt.
+- Mở rộng góc nhìn về việc ứng dụng kiến thức vào thực tiễn, vượt ra khỏi các lý thuyết trong giáo trình đại học.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+#### Trải nghiệm không gian công nghệ chuyên nghiệp
+- Được tham gia sự kiện trực tiếp tại một trong những tòa nhà biểu tượng, không gian làm việc chuyên nghiệp tạo cảm hứng rất lớn cho quá trình theo đuổi ngành kỹ thuật phần mềm và điện toán đám mây.
+- Quan sát và hiểu được cách thức một sự kiện công nghệ quy mô lớn được tổ chức, vận hành để kết nối cộng đồng.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Kết nối và Networking
+- Giao lưu với các chuyên gia, các anh chị đi trước và những người bạn có chung niềm đam mê công nghệ.
+- Được hòa mình vào cộng đồng First Cloud AI Journey, tạo động lực rất lớn để hoàn thành các mục tiêu học tập sắp tới.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+#### Bài học rút ra 
+- Trong AI, "ngữ cảnh" là yếu tố quyết định sự thành bại của kết quả đầu ra. Việc quản lý ngữ cảnh tốt sẽ mở ra rất nhiều ứng dụng thực tế giá trị cao.
+- Nền tảng đám mây chính là "bệ phóng" vững chắc nhất để triển khai các kiến trúc AI phức tạp.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Hình ảnh sự kiện tầng 36 - Phần 1](/images/AnhEventTang36.png)
+
+![Hình ảnh sự kiện tầng 36 - Phần 2](/images/AnhEventTang36-2.png)
+
+![Hình ảnh sự kiện tầng 36 - Phần 2](/images/AnhEventTang36-3.png)

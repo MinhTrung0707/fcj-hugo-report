@@ -1,57 +1,32 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-07
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 7 Objectives:
+* Finalize and comprehensively map out the 3-Tier Architecture system diagram on the AWS platform.
+* Visualize network traffic flows (Data Plane & Control Plane) to support "The Big Move" deployment phase.
+* Draft a detailed presentation script for defending the project's architecture.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Date | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Jun 01 | - Finalize Architecture Diagram <br>&emsp; + Design a diagram encompassing VPC boundaries, Public/Private Subnets, ALB, ECS Fargate, RDS, and NAT Gateway. | 06/01/2026 | 06/03/2026 | https://aws.amazon.com/vi/architecture/icons/ |
+| Jun 04 | - Analyze Traffic Flows <br>&emsp; + Breakdown the User Access flow (1-7) and the CI/CD & Monitoring pipeline (8-10, A-B). | 06/04/2026 | 06/05/2026 | [AWS Whitepapers](https://aws.amazon.com/whitepapers/) |
+| Jun 06 | - Write Presentation Script <br>&emsp; + Compile all documentation into an in-depth architectural discussion regarding the small-scale Social Network. | 06/06/2026 | 06/07/2026 |  |
 
 ### Week 7 Achievements:
+* 100% completion of the isolated internal network architecture diagram adhering to AWS standards.
+* Clearly established the routing for static web interface distribution via S3 and internal API processing mechanisms.
+* Completed the detailed presentation script to serve as a reference document for the team while deploying the actual infrastructure using CloudFormation.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Finalized Architecture Diagram
+Successfully designed the overarching architecture diagram, clearly illustrating the 3-Tier Architecture model integrated within the AWS VPC environment.
+![Small-scale Social Network Architecture Diagram - AWS 3-Tier Architecture](/images/Tuan7.png)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+![Hình ảnh Worklog Tuần 7 ](/images/Tuan7-1.png)

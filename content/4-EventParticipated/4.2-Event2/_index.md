@@ -1,126 +1,75 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Cloud Architect"
+date: 2026-06-20
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+![Event check-in picture](/images/Evt_2.png)
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Reflection Report: "Cloud Architect" Competition
 
-### Event Objectives
+**Role:** Competitor (PrimeOps Team Member)
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Event Purpose
 
-### Speakers
+- Create a high-pressure simulated environment, requiring participants to apply a System Architect's mindset to solve real-world network infrastructure problems on AWS.
+- Evaluate the ability to convert academic knowledge into practical reflexes: From understanding basic services (Cloud Practitioner) to designing accurate data flows (SAA) and optimizing high-level multi-region architectures (SAP).
+- Challenge the ability to troubleshoot, secure systems, and optimize infrastructure costs (Cost Optimization) within strict enterprise constraints.
+- Broaden the perspective from configuring individual resources to planning a complete and comprehensive Architecture Diagram.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+---
 
-### Key Highlights
+### Key Highlights: Upgrading Network Infrastructure Mindset
 
-#### Identifying the drawbacks of legacy application architecture
+The competition was designed with increasing difficulty, accurately simulating the scaling process of a system from initialization to becoming a large enterprise project.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### Qualifying Round: Shaping the Foundation (10 questions)
+- **Structure:** 7 Cloud Practitioner (CP) questions, 2 SAA questions, 1 SAP question.
+- **Focus (Infrastructure View):** This is the foundation "stress test" round. Instead of just memorizing concepts, clearly defining the role of each core service block (Compute, Storage, Database) is extremely important. The appearance of 1 SAP question (50 points) right at the beginning acts as a "bottleneck", requiring the ability to quickly assess risks to decide whether to answer quickly or dive deep into architectural analysis.
 
-#### Transitioning to modern application architecture – Microservices
+#### Semi-Final Round: Routing & Virtual Network Problems (10 questions)
+- **Structure:** 5 CP questions, 3 SAA questions, 2 SAP questions.
+- **Focus (Networking View):** The knowledge focus strongly shifts to network planning. The questions demand agility in dissecting virtual network layers (VPC), configuring Subnetting, Route Tables, and transmission security rules. The two SAP problems in this round are truly a "test" of the ability to observe Traffic Flow and identify any bottlenecks.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### Final Round: Enterprise Standard Design & Multi-Layer Security (10 questions)
+- **Structure:** 3 CP questions, 4 SAA questions, 3 SAP questions.
+- **Focus (Security & Architect View):** Requirements are pushed to the highest level. It doesn't just stop at "can the system run?", but must answer: How is the multi-region fault tolerance (High Availability)? What is the DDoS defense mechanism? The SAP questions (150 points) require a comprehensive view, seamlessly combining load balancers, Auto Scaling, and WAF firewalls.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Operational Tactics
+Each team was provided with 2 skills to flexibly control risks:
+1. **Star of Hope (High Risk - High Reward):** Correct answers double the points, wrong answers deduct double. Suitable when encountering "mastered" knowledge of advanced networking or security.
+2. **Risk Mitigation (Safe Play):** Correct answers add 50% points, wrong answers are not deducted. An extremely safe option to navigate questions beyond the current design scope.
 
-#### Domain-Driven Design (DDD)
+---
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Lessons Learned
 
-#### Event-Driven Architecture
+#### System & Security Mindset (SysOps/Architect Mindset)
+- **Clear architectural partitioning:** The competition helped unblock my mindset from running a single server to designing an entire smoothly operating Cluster. I realized that the boundary between a normal system and a SAP-level system is the capability for automation and fault tolerance.
+- **Multi-layer security (Defense-in-Depth):** Engraved the importance of tightening security from the lowest layers like Security Groups and Network ACLs to strict IAM permission policies (Least Privilege).
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Practical Analysis Skills
+- **Reverse-engineering the prompt into a Diagram:** When facing dozens of lines describing SAP requirements, the most important skill learned is the ability to mentally "redraw" the architecture diagram. Immediately identifying the Frontend, Backend, Database, and network flow helps to effectively peel away distracting options.
+- **Trade-off Assessment:** Learned how to balance Cost and Performance. A perfect but expensive technological solution is not necessarily the right answer if the prompt emphasizes budget optimization.
 
-#### Compute Evolution
+---
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### Experience at the Event
 
-#### Amazon Q Developer
+Participating as a **Competitor belonging to the PrimeOps team**, the "Cloud Architect" event to me was not simply a score race, but an extremely intense miniature *Security Audit* and *Architecture Review*.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### Pushing Personal Limits
+When the countdown in the Final round hit with 3 consecutive expert-level questions, the pressure created was exactly like having to review thousands of lines of infrastructure code (YAML) to find network bottlenecks. Having to make split-second architectural decisions with my PrimeOps teammates truly forged a "cool head" and the ability to coordinate as a team under high pressure.
 
-### Key Takeaways
+#### The Practical Puzzle Piece
+This experience clearly proves: Theory is the foundation, but the ability to manually draw a detailed architecture diagram and deeply understand every connection (Endpoints, Load Balancers) is the key to mastering the cloud game. The tough questions at the event further increased my motivation to continue digging into complex network configuration Labs, fine-tuning container infrastructure, and optimizing systems in the future.
 
-#### Design Mindset
+#### Some pictures from participating in the event
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+![Event check-in picture](/images/event2-1.png)
 
-#### Technical Architecture
+![Event check-in picture](/images/event2.png)
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event check-in picture](/images/AnhEvent2-2.png)

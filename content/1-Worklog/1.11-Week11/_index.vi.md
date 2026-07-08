@@ -1,59 +1,38 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+title: "Worklog tuần 11"
+date: 2026-07-04
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm kiếm, dịch thuật và diễn giải bài blog số 3 từ nền tảng AWS Blog.
+* Hoàn thiện toàn bộ nội dung báo cáo thực tập trên hệ thống Hugo Server và thực hiện kiểm tra chéo cùng đội ngũ.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm kiếm bài blog trên nền tảng AWS <br>&emsp; + Chọn lọc bài viết trên hệ thống AWS Blogs có chủ đề phù hợp với dự án để áp dụng. | 29/06/2026 | 29/06/2026 | https://aws.amazon.com/blogs/ |
+| 3 | - Dịch thuật và diễn giải lại theo cách riêng <br>&emsp; + Tiến hành dịch thuật, phân tích chuyên môn và đóng gói nội dung hoàn chỉnh cho bài Blog số 3. | 30/06/2026 | 30/06/2026 | https://aws.amazon.com/blogs/ |
+| 5 | - Hoàn thiện Hugo Server & Báo cáo thực tập <br>&emsp; + Thực hiện kiểm tra chéo (Cross-check) các Hugo Server và báo cáo thực tập với các thành viên. <br>&emsp; + Đảm bảo hoàn thiện bài blog số 3 và nộp báo cáo đúng hạn (Deadline 23:59 Thứ Năm, ngày 02/07/2026). | 02/07/2026 | 02/07/2026 |  |
 
 ### Kết quả đạt được tuần 11:
+* Hoàn thành việc tìm kiếm và chọn lọc tài liệu từ AWS Blogs.
+* Dịch thuật và diễn giải thành công bài blog số 3 theo cách riêng.
+* Hoàn thiện 100% nội dung Bài blog số 3 và báo cáo trên hệ thống Hugo Server.
+* Đã thực hiện kiểm tra chéo (Cross-check) các Hugo Server và báo cáo thực tập cùng các thành viên.
+* Đảm bảo trạng thái công việc hoàn tất (DONE) và nộp báo cáo thành công đúng hạn trước 23:59, Thứ Năm, ngày 02/07/2026.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Hoạt động khác / Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+#### 1. Bảng phân công nhiệm vụ Tuần 11
+Bảng ghi nhận phân công công việc của đội ngũ trong giai đoạn Stress Test & Documentation. Toàn bộ Task cá nhân đã được hoàn thành (Status: DONE). 
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+![Bảng theo dõi tiến độ công việc Tuần 11](/images/Tuan11.png)
+*(Ghi chú: Nhóm đã linh động tổ chức họp Offline bên ngoài quán cà phê để chạy K6 Test và nghiệm thu hệ thống, do sự cố "MISS" lịch hẹn tại văn phòng AWS vào Thứ 6, ngày 03/07)*.
+![Họp nhóm ngoài quán cà phê Tuần 11](/images/Tuan11-2.png)
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+#### 2. Hoàn thành Task Dịch thuật & Đóng gói bài Blog
+Hoàn tất việc dịch thuật, diễn giải và đóng gói nội dung bài Blog số 3. File tài liệu hoàn chỉnh đã được gửi lên group Zalo chung để nhóm review.
+![Minh chứng nộp file bài Blog số 3](/images/Tuan11-1.png)

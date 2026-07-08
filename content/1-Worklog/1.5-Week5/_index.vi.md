@@ -1,59 +1,31 @@
 ---
-title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 5"
+date: 2026-05-24
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Phác họa trực quan toàn bộ hệ thống hạ tầng dự án "Mini Social Network" lên sơ đồ kiến trúc (AWS Architecture Diagram).
+* Thể hiện rõ ràng các lớp ranh giới bảo mật mạng (Network Layer, Subnetting Layer) và đường đi của các luồng dữ liệu (Traffic Flow).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Thiết kế Sơ đồ Kiến trúc Hệ thống <br>&emsp; + Sử dụng công cụ Draw.io với bộ AWS Architecture Icons chuẩn. <br>&emsp; + Phân hoạch 4 lớp rõ ràng: Mạng (VPC), Chia mạng con (Public/Private Subnet) và Lớp lưu trữ ngoài. | 18/05/2026 | 19/05/2026 | https://aws.amazon.com/vi/architecture/icons/ |
+| 4 | - Quy hoạch Luồng dữ liệu (Traffic Flow) <br>&emsp; + Sử dụng mũi tên màu để mô phỏng luồng truy cập: User -> Internet -> WAF -> ALB -> Fargate -> RDS/S3. <br>&emsp; + Thiết kế Bảng chú giải chi tiết cho từng loại mũi tên. | 20/05/2026 | 21/05/2026 |  https://aws.amazon.com/vi/architecture/icons/ |
+| 6 | - Xuất bản và Phân tích Kiến trúc <br>&emsp; + Xuất file gốc (.drawio) và file ảnh nét cao (PNG/PDF) viền trong suốt. <br>&emsp; + Hỗ trợ nhóm viết tài liệu giải mã kiến trúc 3-Tier. | 22/05/2026 | 24/05/2026 | https://aws.amazon.com/vi/architecture/icons/ |
 
 ### Kết quả đạt được tuần 5:
+* Hoàn thành 100% bản vẽ sơ đồ kiến trúc mô phỏng chính xác hiện trạng hạ tầng của dự án "Mini Social Network".
+* Cung cấp đầy đủ file thiết kế gốc và hình ảnh độ phân giải cao kèm bảng chú thích luồng giao thông mạng.
+* Hệ thống hóa thành công lý thuyết bảo mật đa lớp (Defense-in-Depth) vào bản vẽ thực tế.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+#### 1. Sơ đồ Kiến trúc Hệ thống Mạng xã hội (Mini Social Network)
+Bản vẽ phác họa chi tiết mô hình 3-Tier trên AWS, phân tách rõ ràng các luồng Frontend, Backend, Media và CI/CD.
+![Sơ đồ Kiến trúc Hệ thống vẽ trên Draw.io](/images/Tuan5.png)
+2. Gửi Giải mã kiến trúc lên nhóm zalo để mọi người cùng đọc và góp ý.
+![Hình ảnh Worklog Tuần 5 ](/images/Tuan5-1.png) 

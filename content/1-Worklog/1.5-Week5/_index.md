@@ -1,57 +1,32 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-24
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
+* Visually draft the entire infrastructure system of the "Mini Social Network" project onto an architecture diagram (AWS Architecture Diagram).
+* Clearly depict the network security boundary layers (Network Layer, Subnetting Layer) and the routing of data flows (Traffic Flow).
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Design System Architecture Diagram <br>&emsp; + Use the Draw.io tool with standard AWS Architecture Icons. <br>&emsp; + Clearly partition into 4 layers: Network (VPC), Subnetting (Public/Private Subnet), and External Storage Layer. | 05/18/2026 | 05/19/2026 | https://aws.amazon.com/vi/architecture/icons/ |
+| Wed | - Plan Traffic Flow <br>&emsp; + Use colored arrows to simulate the access flow: User -> Internet -> WAF -> ALB -> Fargate -> RDS/S3. <br>&emsp; + Design a detailed Legend for each type of arrow. | 05/20/2026 | 05/21/2026 |  https://aws.amazon.com/vi/architecture/icons/ |
+| Fri | - Publish and Analyze Architecture <br>&emsp; + Export the source file (.drawio) and high-resolution image file (PNG/PDF) with a transparent background. <br>&emsp; + Assist the team in writing documentation to decode the 3-Tier architecture. | 05/22/2026 | 05/24/2026 | https://aws.amazon.com/vi/architecture/icons/ |
 
 ### Week 5 Achievements:
+* 100% completed the architectural diagram accurately simulating the current infrastructure status of the "Mini Social Network" project.
+* Provided the full original design files and high-resolution images along with the network traffic flow legend.
+* Successfully systematized the multi-layer security theory (Defense-in-Depth) into the practical diagram.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Mini Social Network System Architecture Diagram
+The diagram sketches in detail the 3-Tier model on AWS, clearly separating the Frontend, Backend, Media, and CI/CD flows.
+![System Architecture Diagram drawn on Draw.io](/images/Tuan5.png)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+#### 2. Sent the Architecture Decoding to the Zalo group for peer review
+![Week 5 Worklog Image](/images/Tuan5-1.png)

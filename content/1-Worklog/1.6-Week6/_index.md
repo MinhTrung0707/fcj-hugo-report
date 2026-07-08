@@ -1,57 +1,38 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-31
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
+* Convert network infrastructure design into Infrastructure as Code (IaC) using AWS CloudFormation.
+* Automate the provisioning and synchronization of core network resources to prepare for the cloud deployment phase (Pre-flight Check).
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Write foundational IaC script <br>&emsp; + Draft the `infrastructure.yaml` script defining the VPC (10.0.0.0/16) and Internet Gateway resources. <br>&emsp; + Declare configurations for 2 Public Subnets and 2 Private Subnets distributed across different Availability Zones (AZs). | 05/25/2026 | 05/26/2026 | AWS CloudFormation Docs |
+| Wed | - Configure routing and security <br>&emsp; + Provision a Route Table to route Public Subnet traffic to the Internet. <br>&emsp; + Define initialization parameters for separate Security Groups: ALB (opening Port 80) and Backend (opening Port 8080). | 05/27/2026 | 05/28/2026 | AWS CloudFormation Docs |
+| Fri | - Automate resource deployment <br>&emsp; + Append the Application Load Balancer (ALB) resource block into the YAML file. <br>&emsp; + Upload the `infrastructure.yaml` template to AWS CloudFormation, name the stack `MiniSocial-Tuan6-Infra`, and execute the creation command. | 05/29/2026 | 05/31/2026 | Team Project |
 
 ### Week 6 Achievements:
+* Completed an accurate IaC script, successfully linking the Load Balancer, Subnet layers, and Security Groups.
+* The CloudFormation stack deployment process was 100% successful, returning a `CREATE_COMPLETE` status.
+* Decoded and mastered the resource synchronization mechanism (Consistency check) of the global AWS system during the provisioning phase.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Automated Infrastructure Deployment via CloudFormation
+Successfully uploaded the `infrastructure.yaml` template and configured the Stack named `MiniSocial-Tuan6-Infra` on the AWS Console.
+The system deployment was fully completed, returning the **CREATE_COMPLETE** status.
+*(Technical note: The brown segments on the chart indicate the "Consistency check" status - a process where AWS pauses for a few seconds to review and synchronize data across its global system. The endpoint turning green proves that the resource passed the inspection and was 100% successfully created.)*
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+The result will be: CREATE_COMPLETE:
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6.png) 
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6-1.png)
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+2. Send Tai_Lieu_CloudFormation_MiniSocial to the Zalo group.
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6-2.png) 

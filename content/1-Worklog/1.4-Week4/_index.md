@@ -1,57 +1,38 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-17
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
+* Master foundational knowledge of AWS cloud computing to prepare for the team's Cloud Liftoff DEMO deployment.
+* Proficiently practice labs related to Networking and virtual servers.
+* Develop a basic network planning strategy (IP/CIDR) and validate security flows.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Cloud network theory research (Part 1) <br>&emsp; + Learn fundamental architecture: Amazon VPC, Public/Private Subnets. | 11/05/2026 | 11/05/2026 | [First Cloud AI Journey Materials](https://cloudjourney.awsstudygroup.com/) |
+| Tue | - Cloud network theory research (Part 2) <br>&emsp; + Learn routing components: Internet Gateway, Route Tables, and Security Groups. | 12/05/2026 | 12/05/2026 | [First Cloud AI Journey Materials](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - AWS Lab Practice (Infrastructure Deployment) <br>&emsp; + Provision VPC, set up Subnet networks, and route Internet Gateway directly on the AWS Management Console. | 13/05/2026 | 13/05/2026 | [First Cloud AI Journey Materials](https://cloudjourney.awsstudygroup.com/) |
+| Thu | - Network Planning and Design <br>&emsp; + Calculate and sketch IP ranges (CIDR blocks) for the VPC and Subnets to prepare the network infrastructure for the team's DEMO. | 14/05/2026 | 14/05/2026 | |
+| Fri | - Validation & Troubleshooting <br>&emsp; + Test actual network flows (SSH, Ping) to verify that Route Tables and firewall rules (Security Groups/NACL) function correctly. | 15/05/2026 | 15/05/2026 | |
 
 ### Week 4 Achievements:
+* Completed assigned theoretical modules on the AWS learning platform on time.
+* Gained the ability to perform practical operations on the AWS Management Console through lab exercises, clearly understanding virtual network routing mechanisms.
+* Completed the draft IP address (CIDR) planning and firewall rules (Security Group) system, ready to integrate with ALB and S3 components from other members for the DEMO.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Other Activities / Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Week 4 Task Assignment Board
+Records the completion status (DONE) of theoretical learning and Lab practice tasks. 
+*(Work report note: I proactively updated the progress on the project tracking board so the team could synchronize DEMO information. The team registered for a progress update meeting at the AWS office on May 15 but was not selected in the random draw, so it was recorded as a MISS).*
+![Week 4 task progress tracking board](/images/Tuan4-6.png)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+#### 2. Completion of Lab and theoretical modules
+Practical exercises on the AWS platform were completed on time, ensuring the necessary knowledge for the real-world project.
+![Lab 1 practice evidence](/images/Tuan4-1.png)
+![Lab 2 practice evidence](/images/Tuan4-2.png)

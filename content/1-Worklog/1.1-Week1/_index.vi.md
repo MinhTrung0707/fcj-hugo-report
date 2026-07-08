@@ -1,59 +1,40 @@
 ---
-title: "Worklog Tuần 1"
-date: 2024-01-01
+title: "Worklog tuần 1"
+date: 2026-04-25
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Phân tích và dự toán tài nguyên hệ thống (RDS, ECS) cho dự án "Mini Social Network".
+* Thiết lập môi trường container hóa (Docker) để chuẩn bị cho việc triển khai ứng dụng.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Nhận Database Schema và tính toán tài nguyên <br>&emsp; + Phân tích cấu trúc DB từ team Backend <br>&emsp; + Tính toán dung lượng RAM/CPU sơ bộ cho RDS và ECS để tối ưu chi phí | 20/04/2026 | 21/04/2026 | Tài liệu nhóm |
+| 4 | - Xây dựng kịch bản triển khai (Containerization) <br>&emsp; + Viết file `docker-compose.yml` tạm cho Frontend, Backend và Database <br>&emsp; + Tối ưu hóa Dockerfile Backend (Maven build, JRE) và Frontend (Nginx) | 22/04/2026 | 23/04/2026 | Docker Docs |
+| 6 | - Kiểm tra và đóng gói <br>&emsp; + Chạy thử nghiệm hệ thống bằng Docker Compose <br>&emsp; + Kiểm tra cấu hình port và kết nối giữa các container | 24/04/2026 | 25/04/2026 
 
 ### Kết quả đạt được tuần 1:
+* Đã hoàn thành bảng dự toán cấu hình RAM/CPU cho hạ tầng AWS.
+* Thiết lập thành công file `docker-compose.yml` cho phép khởi chạy toàn bộ hệ thống (Frontend, Backend, DB) bằng một lệnh duy nhất.
+* Dockerfile được tối ưu hóa, đảm bảo kích thước ảnh nhỏ gọn (sử dụng alpine images).
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+#### 1. Bảng theo dõi tiến độ công việc
+Ghi nhận hoàn thành (DONE) các nhiệm vụ kỹ thuật trong tuần 1.
+![Bảng tiến độ tuần 1](/images/Tuan1.png)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+Gửi file docker-compose.yaml lên nhóm zalo.
+![Đã gửi lên zalo](/images/Tuan1-1.png)
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+#### 2. Kịch bản triển khai (Infrastructure Code)
+File `docker-compose.yml` được cấu hình để quản lý liên kết giữa các thành phần hệ thống.
+![File docker-compose.yml](/images/Tuan1-3.png)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+#### 3. Kết quả Docker hóa
+Terminal thể hiện quá trình build thành công các image Backend và Frontend.
+![Terminal build Docker](/images/Tuan1-2.png)

@@ -1,59 +1,35 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 9"
+date: 2026-06-21
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chuyển hóa các ý tưởng đã được thống nhất từ tuần trước thành văn bản hoàn chỉnh.
+* Hoàn thiện bản nháp đầu tiên (bản tạm) cho bài Blog số 3 và gửi cho nhóm đọc trước để tiến hành kiểm tra chéo (Cross-check).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Triển khai viết bản nháp (Drafting) <br>&emsp; + Bắt đầu viết nội dung chi tiết cho bài Blog số 3 dựa trên dàn ý đã chốt. <br>&emsp; + Tập trung vào chủ đề triển khai mở rộng và quy hoạch mạng nội bộ (VPC/Subnet). | 15/06/2026 | 16/06/2026 | https://aws.amazon.com/blogs/ |
+| 4 | - Thiết kế sơ đồ kiến trúc và minh chứng <br>&emsp; + Sử dụng công cụ để trực quan hóa sơ đồ luồng dữ liệu minh họa cho nội dung bài viết. <br>&emsp; + Trích xuất các thông số kỹ thuật thực tế từ hệ thống để làm dẫn chứng. | 17/06/2026 | 17/06/2026 | https://aws.amazon.com/vi/architecture/icons/ |
+| 5 | - Hoàn thiện và gửi bản tạm nội dung bài Blog số 3 <br>&emsp; + Review lại tổng thể cấu trúc bài viết phân tích kiến trúc AWS, biên tập văn phong kỹ thuật chuẩn doanh nghiệp. <br>&emsp; + Hoàn thiện bản tạm (file Word) và gửi trực tiếp cho đội dự án để tiến hành đối chiếu. | 18/06/2026 | 18/06/2026 | https://aws.amazon.com/blogs/ |
 
 ### Kết quả đạt được tuần 9:
+* Hoàn thiện thành công đầu ra công việc: Bản tạm của bài Blog số 3.
+* Đảm bảo trạng thái công việc được cập nhật hoàn tất (DONE) trên bảng theo dõi chung.
+* Đã gửi bản nháp (gồm 2 tùy chọn chủ đề chuyên sâu) cho nhóm đọc trước để các thành viên lựa chọn, phục vụ đắc lực cho công tác kiểm tra chéo.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Hoạt động khác / Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+#### 1. Hoàn thành Task phân công Tuần 9
+Cập nhật trạng thái hoàn thành (DONE) cho nhiệm vụ "Hoàn thiện bản tạm bài blog số 3" trên hệ thống quản lý tiến độ của nhóm. Bản tạm đã được chủ động gửi lên group chat để mọi người đọc trước.
+![Bảng theo dõi tiến độ công việc Tuần 9](/images/Tuan9.png)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+![Bản tạm bài blog Tuần 9](/images/Tuan9-3.png)
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+#### 2. Họp nhóm tổng duyệt nội dung (Cross-check)
+Nhóm đã chủ động tổ chức họp trực tiếp bên ngoài (Cafe Sync-up) vào ngày 19/06 để thảo luận sâu về bản tạm đã gửi trước và chốt nội dung gửi review.
+![Họp ngoài quán cà phê Tuần 9](/images/Tuan9-1.png)

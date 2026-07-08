@@ -1,126 +1,88 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "FCAJ Community day - May 2026"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+![Event image on the 36th floor - Part 3](/images/Evt_1.png)
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Reflection Report “FCAJ Community day - May 2026”
 
-### Event Objectives
+### Event Purpose
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Kick-off and connect the community within the First Cloud AI Journey (FCAJ) program.
+- Explore innovative technologies on the cloud platform and artificial intelligence applications.
+- Deep dive into the importance of context in AI ("Context Is Everything") and the concept of the "Second AI Brain".
 
-### Speakers
+### List of Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Mr. Tinh** - Build second brain
+- **Hai Anh** - Friendly AI Assistant with Amazon Q
+- **Mr. Thinh** - From Edge To Origin: CloudFront as Your Foundation
+- **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
+- **Dao Duc** - Deep dive talk: How LLM actually works?
+- **Cat Vy** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Context Is Everything
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- The core role of context in helping Large Language Models (LLMs) understand requests and provide accurate responses, avoiding "hallucination".
+- How to store and manage AI memory to maintain continuity and logic in complex conversational chains.
 
-#### Transitioning to modern application architecture – Microservices
+#### The "Second AI Brain" Concept
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Methods to build an external knowledge system to support LLMs (such as RAG - Retrieval-Augmented Generation techniques).
+- How AI can securely access enterprise or personal data sources to make smarter decisions without the cost of fine-tuning the entire model.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Cloud Innovation and AI Development
 
-#### Domain-Driven Design (DDD)
+- Integrating artificial intelligence solutions into the cloud computing ecosystem.
+- Introducing data storage architectures and technologies that optimize retrieval capabilities for AI.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Lessons Learned
 
-#### Event-Driven Architecture
+#### Artificial Intelligence System Design Mindset
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- Understanding that a powerful AI model is not enough; the system needs a mechanism to provide accurate, secure, and timely Context.
+- Recognizing the importance of personalizing experiences through "AI memory".
 
-#### Compute Evolution
+#### Practical Technical Architecture
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+- Grasping the basic workflow when connecting databases with large language models to create an effective "Second AI Brain".
+- How to design scalable AI applications when running on a Cloud platform.
 
-#### Amazon Q Developer
+### Application to Work / Study
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Research applying the "Second AI Brain" architecture:** Brainstorm ideas to integrate RAG or AI memory into current academic assignments or management projects to make systems smarter.
+- **Database Administration:** Learn more about Vector Databases and how to optimally store context for AI application projects.
+- **Practice in Cloud environments:** Actively apply related services to materialize the introduced architectures into practical environments.
 
-### Key Takeaways
+### Experience at the Event
 
-#### Design Mindset
+Participating in the **FCAJ Community day - May 2026** at the Bitexco Financial Tower was a wonderful practical experience, bringing me closer to a professional technology environment and the most advanced AI trends today. Some notable experiences:
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+#### Learning from Cloud and AI Industry Experts
+- Directly listening to in-depth sharing on how to solve the "memory" problem for AI, and the practical challenges engineers are facing.
+- Expanding perspectives on applying knowledge into practice, moving beyond academic theories in university textbooks.
 
-#### Technical Architecture
+#### Experiencing a Professional Technology Space
+- Attending an in-person event at one of the iconic buildings; the professional workspace greatly inspired my pursuit of software engineering and cloud computing.
+- Observing and understanding how a large-scale technology event is organized and operated to connect the community.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+#### Connection and Networking
+- Networking with experts, senior professionals, and friends who share a passion for technology.
+- Immersing myself in the First Cloud AI Journey community, creating great motivation to complete upcoming learning goals.
 
-#### Modernization Strategy
+#### Key Takeaways 
+- In AI, "context" is the determining factor in the success or failure of the output. Good context management will open up many high-value practical applications.
+- The cloud platform is the most solid "launchpad" to deploy complex AI architectures.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+#### Some Pictures from the Event
+![Event image on the 36th floor - Part 1](/images/AnhEventTang36.png)
 
-### Applying to Work
+![Event image on the 36th floor - Part 2](/images/AnhEventTang36-2.png)
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event image on the 36th floor - Part 3](/images/AnhEventTang36-3.png)

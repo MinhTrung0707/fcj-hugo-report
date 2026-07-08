@@ -1,59 +1,44 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 3"
+date: 2026-05-10
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 3:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Xây dựng luồng CI/CD tự động bằng công cụ Jenkins (Jenkinsfile) theo chuẩn DevOps.
+* Sửa lỗi (Bug Fixes) tồn đọng ở giai đoạn Unit Test và tối ưu luồng Pipeline cho Frontend.
+* Đóng gói (Dockerize) thành công mã nguồn và đẩy lên kho lưu trữ Amazon ECR.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Sửa lỗi và thiết lập ECR <br>&emsp; + Fix lỗi `NullPointerException` tại `NotificationServiceTest.java` bằng cách cấu hình lại kết nối Database và mock data. <br>&emsp; + Khởi tạo 2 Repositories Private trên ECR (`minisocial-backend` và `minisocial-frontend`). | 04/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Cấu hình Frontend và Jenkinsfile <br>&emsp; + Áp dụng Multi-stage build và viết thêm file `nginx.conf` cho Frontend để xử lý React Router SPA và Reverse Proxy tránh lỗi CORS. <br>&emsp; + Khởi tạo file Jenkinsfile khai báo biến môi trường AWS, cấu hình bước Checkout, Build Docker, Login ECR và Push Image. | 06/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Tối ưu Pipeline, Deploy tự động và Họp nhóm <br>&emsp; + Xử lý lỗi treo Pipeline bằng cách xóa lệnh `npm ci` ngoài Host, chuyển vào Stage 1 của Docker (Alpine Linux) để tránh nghẽn I/O. <br>&emsp; + Tạo Job Pipeline mới trên Jenkins, trỏ tới kho GitHub và thực thi tự động. <br>&emsp; + Tham gia họp nhóm Offline để tổng kết và trình chiếu kết quả. | 08/05/2026 | 10/05/2026 | Báo cáo nội bộ |
 
 ### Kết quả đạt được tuần 3:
+* Mã nguồn Backend đã load thành công Application Context và vượt qua toàn bộ 186/186 bài Unit Test.
+* Hệ thống CI đã chạy tự động thành công 100%, tốc độ build tăng đáng kể và không còn bị treo.
+* Các Image được đóng gói và đẩy tự động thành công lên AWS ECR với dung lượng tối ưu (Backend: 144.02 MB, Frontend siêu nhẹ: 26.33 MB).
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Minh chứng thực hiện:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+#### 1. Bảng theo dõi tiến độ công việc Tuần 3
+Ghi nhận hoàn thành (DONE) nhiệm vụ đóng gói mã nguồn và đẩy Image lên kho Amazon ECR, kèm theo lịch họp nhóm Offline vào ngày 10/5.
+![Bảng tiến độ tuần 3](/images/Tuan3-5.png)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+![Lên văn phòng AWS](/images/Tuan3-7.png)
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+#### 2. Kịch bản triển khai (Infrastructure as Code)
+Các cấu hình mã nguồn cho Dockerfile, Nginx và Jenkinsfile đã được thiết lập và tinh chỉnh tối ưu để phục vụ luồng CI/CD.
+![Cấu hình Dockerfile](/images/Tuan3.png)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+![Cấu hình Nginx phần 1](/images/Tuan3-1.png)
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+![Cấu hình Nginx phần 2](/images/Tuan3-2.png)
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+![Cấu hình Jenkinsfile phần 1](/images/Tuan3-3.png)
 
-
+![Cấu hình Jenkinsfile phần 2](/images/Tuan3-4.png)

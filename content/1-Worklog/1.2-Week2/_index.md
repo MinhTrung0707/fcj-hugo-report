@@ -1,57 +1,34 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-04-27
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
+* Research the secure storage service Amazon ECR and the Serverless Compute engine AWS Fargate.
+* Perform packaging, push the Docker Image to ECR, and independently launch the application on the AWS Console to overcome server downtime issues.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Local Packaging Operations <br>&emsp; + Use AWS CLI to retrieve the Token and authenticate access to AWS ECR. <br>&emsp; + Use the `docker build` command with the `--platform linux/amd64` flag to create the Image, helping prevent CPU architecture errors. | 04/27/2026 | 04/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Push Image to ECR repository <br>&emsp; + Tag the Image to match the ECR repository URI. <br>&emsp; + Use the `docker push` command to securely push the Backend Image to the AWS internal system. | 04/29/2026 | 04/30/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Launch on Amazon ECS <br>&emsp; + Access Amazon ECS to create a Cluster (logical network environment). <br>&emsp; + Create a Task Definition with 1 vCPU and 2 GiB RAM parameters, while granting the `ecsTaskExecutionRole`. <br>&emsp; + Create a Service to run the application and implement cost optimization by setting Desired tasks to 0 after testing. | 05/01/2026 | 05/03/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 2 Achievements:
+* Grasped the Serverless AWS Fargate model, thereby providing an independent environment to handle complex logic workloads (API communication, JWT security, Sockets) without relying on Firebase or a local SQLite database.
+* Successfully pushed the Docker Image to the Amazon ECR repository (replacing Docker Hub).
+* Completed the ECS Service configuration in `awsvpc` network mode, properly established IAM permissions, and implemented cost control procedures since AWS Fargate is not included in the Free Tier.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Week 2 Task Tracking Board
+Recorded the completion (DONE) of the task to research ECR & Fargate services.
+*(Note: During this holiday week, the team had an OFF meeting schedule, but members still proactively completed their individual tasks on time)*.
+![Week 2 Task Tracking Board](/images/worklogtuan2.png)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+#### 2. Research Document Submission
+The detailed analysis document on the deployment process, expected configuration, and practical application of the ECR/Fargate architecture was drafted into a Word file (`tuan2.docx`) and sent directly to the shared Zalo group for the team to stay informed.
+![Evidence of Week 2 report submission](/images/worklogtuan2-1.png)

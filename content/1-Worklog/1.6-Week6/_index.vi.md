@@ -1,58 +1,39 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+title: "Worklog tuần 6"
+date: 2026-05-31
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chuyển đổi thiết kế hạ tầng mạng thành mã (Infrastructure as Code - IaC) thông qua AWS CloudFormation.
+* Tự động hóa quá trình khởi tạo và đồng bộ các tài nguyên cốt lõi của mạng lưới để chuẩn bị cho quá trình đưa ứng dụng lên mây (Pre-flight Check).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Viết kịch bản IaC cơ bản <br>&emsp; + Viết script `infrastructure.yaml` định nghĩa tài nguyên mạng ảo VPC (10.0.0.0/16) và Internet Gateway. <br>&emsp; + Khai báo cấu hình 2 Public Subnets và 2 Private Subnets trải đều ở các Availability Zones (AZ) khác nhau. | 25/05/2026 | 26/05/2026 | AWS CloudFormation Docs |
+| 4 | - Cấu hình định tuyến và bảo mật <br>&emsp; + Khởi tạo Route Table để định tuyến cho mạng Public Subnet thông ra Internet. <br>&emsp; + Viết thông số khởi tạo các Security Groups tách biệt: ALB (mở Port 80) và Backend (mở Port 8080). | 27/05/2026 | 28/05/2026 | AWS CloudFormation Docs |
+| 6 | - Triển khai tự động tài nguyên <br>&emsp; + Bổ sung khối tài nguyên Application Load Balancer (ALB) vào file YAML. <br>&emsp; + Tải file `infrastructure.yaml` lên AWS CloudFormation, đặt tên stack là `MiniSocial-Tuan6-Infra` và thực thi lệnh khởi tạo. | 29/05/2026 | 31/05/2026 | Dự án nhóm |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn tất kịch bản mã IaC chuẩn xác, liên kết thành công Load Balancer, các lớp Subnets và Security Group.
+* Quá trình triển khai stack CloudFormation thành công 100% với trạng thái `CREATE_COMPLETE`.
+* Giải mã và nắm vững cơ chế đồng bộ tài nguyên (Consistency check) của hệ thống AWS toàn cầu trong quá trình khởi tạo.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Minh chứng thực hiện:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+#### 1. Triển khai hạ tầng tự động qua CloudFormation
+Đã thực hiện upload template `infrastructure.yaml` và cấu hình thành công Stack mang tên `MiniSocial-Tuan6-Infra` trên AWS Console.
+Hệ thống đã triển khai hoàn tất và trả về trạng thái **CREATE_COMPLETE**.
+*(Ghi chú kỹ thuật: Các đoạn màu nâu trên biểu đồ hiển thị trạng thái "Consistency check" - quá trình AWS tạm dừng vài giây để rà soát và đồng bộ dữ liệu trên hệ thống toàn cầu. Điểm kết thúc chuyển sang màu xanh lá chứng tỏ tài nguyên đã vượt qua bài kiểm tra và được tạo thành công 100%.)*
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Kết quả sẽ ra: CREATE_COMPLETE: 
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6.png) 
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6-1.png)
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+2. Gửi Tai_Lieu_CloudFormation_MiniSocial lên nhóm zalo.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+![Hình ảnh Worklog Tuần 6 ](/images/Tuan6-2.png) 

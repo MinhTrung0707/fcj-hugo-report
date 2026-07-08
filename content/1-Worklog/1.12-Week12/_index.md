@@ -1,57 +1,36 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-07-07
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
+* Analyze, review, and finalize the Final version of the project's architecture diagram (Minisocial Architect) based on budget constraints.
+* Complete 100% of the content on the Hugo Server & Internship Report, conduct cross-checking with the team.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Analyze and review the Minisocial Architect diagram <br>&emsp; + Evaluate the current state of network infrastructure (VPC, Subnets, Traffic Optimization). <br>&emsp; + Identify infrastructure limitations (using only 1 NAT Gateway in AZ A and Single-AZ for RDS). Assess risks and decide to maintain this structure to ensure cost optimization for the project's current scale. | 06/07/2026 | 06/07/2026 | Current system diagram |
+| Tue | - Finalize the Final diagram and submit the report <br>&emsp; + Refine the diagram: Tidy up the layout, realign connection lines to clarify Logic and Physical communication flows (especially the Outbound Traffic flow via NAT Gateway). <br>&emsp; + Finalize the Hugo Server & Internship Report, proceed with cross-checking, and submit before the deadline (Deadline: 23:59 Tue 07/07). | 07/07/2026 | 07/07/2026 | Draw.io diagram / Internal platform |
 
 ### Week 12 Achievements:
+* Completed in-depth review and finalized the Minisocial Architecture Diagram Final version (preserved the current infrastructure structure to optimize the budget, perfected the visual presentation).
+* Strictly executed cross-checking of documents according to team rules, ensuring no errors.
+* Completed all content and successfully submitted the Hugo Server and Internship Report on time (completed before 23:59 Tuesday, July 07, 2026).
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Other Activities / Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Week 12 Task Assignment Board
+Records the task assignments during the Graceful Shutdown & Documentation phase. The tasks "Analyze, review, edit the final version of the Minisocial Architect diagram" and "finalize the report" were handled on time. 
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+![Week 12 task progress tracking board](/images/Tuan12.png)
+*(Extracurricular activity note: The team flexibly organized a direct acceptance meeting at a coffee shop on Wednesday, July 08 to unify the handover and close the project).*
+![Week 12 task progress tracking board](/images/Tuan12-1.png)
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+#### 2. Architecture Diagram (Final Version)
+The final drawing was refined to provide the most visual presentation of the project's ecosystem. The diagram focuses on clarifying core network communication flows (VPC Gateway Endpoint for S3, Outbound Traffic via NAT Gateway) and the decision to maintain the Single-AZ design for the Database to align with the team's cost optimization problem.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+![Architecture Diagram](/images/SoDoKienTrucDaChinhSua.drawio.png)

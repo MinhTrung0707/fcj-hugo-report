@@ -1,57 +1,44 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-10
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
+* Build an automated CI/CD pipeline using Jenkins (Jenkinsfile) following DevOps standards.
+* Fix outstanding bugs in the Unit Test phase and optimize the pipeline flow for the Frontend.
+* Successfully containerize (Dockerize) the source code and push it to the Amazon ECR repository.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | --- | --- | --- | --- |
+| Mon | - Bug fixing and ECR setup <br>&emsp; + Fix the `NullPointerException` in `NotificationServiceTest.java` by reconfiguring the Database connection and mock data. <br>&emsp; + Initialize 2 Private Repositories on ECR (`minisocial-backend` and `minisocial-frontend`). | 04/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Frontend and Jenkinsfile configuration <br>&emsp; + Apply Multi-stage build and write an `nginx.conf` file for the Frontend to handle React Router SPA and Reverse Proxy to avoid CORS errors. <br>&emsp; + Initialize the Jenkinsfile to declare AWS environment variables, configure Checkout, Build Docker, Login ECR, and Push Image steps. | 06/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Pipeline optimization, Automated Deploy, and Team meeting <br>&emsp; + Resolve the Pipeline hanging issue by removing the `npm ci` command on the Host, moving it to Docker Stage 1 (Alpine Linux) to avoid I/O bottlenecks. <br>&emsp; + Create a new Pipeline Job on Jenkins, point it to the GitHub repository, and execute it automatically. <br>&emsp; + Attend an offline team meeting to summarize and present results. | 08/05/2026 | 10/05/2026 | Internal report |
 
 ### Week 3 Achievements:
+* The Backend source code successfully loaded the Application Context and passed all 186/186 Unit Tests.
+* The CI system ran automatically with 100% success, the build speed increased significantly, and it no longer hangs.
+* Images were successfully containerized and automatically pushed to AWS ECR with optimized sizes (Backend: 144.02 MB, Ultra-lightweight Frontend: 26.33 MB).
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Implementation Evidence:
 
-* Successfully created and configured an AWS Free Tier account.
+#### 1. Week 3 Task Progress Tracking Board
+Recorded the completion (DONE) of the source code containerization and Image push tasks to the Amazon ECR repository, along with the Offline team meeting schedule on May 10.
+![Week 3 progress board](/images/Tuan3-5.png)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+![Visiting AWS office](/images/Tuan3-7.png)
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+#### 2. Deployment Scripts (Infrastructure as Code)
+The source code configurations for Dockerfile, Nginx, and Jenkinsfile have been set up and optimally fine-tuned to serve the CI/CD pipeline.
+![Dockerfile configuration](/images/Tuan3.png)
 
-* Used AWS CLI to perform basic operations such as:
+![Nginx configuration part 1](/images/Tuan3-1.png)
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+![Nginx configuration part 2](/images/Tuan3-2.png)
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+![Jenkinsfile configuration part 1](/images/Tuan3-3.png)
+
+![Jenkinsfile configuration part 2](/images/Tuan3-4.png)
