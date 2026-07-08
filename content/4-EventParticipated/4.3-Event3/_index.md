@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# FCAJ Community Day - June 2026
+# SUMMARY REPORT: "FCAJ Community Day - June 2026"
 
 ![FCAJ Community Day](/images/Evt_3.png)
 
@@ -20,13 +20,15 @@ pre: " <b> 4.3. </b> "
 
 ### List of Speakers
 
-- **Steve Tran** – Representative from Cloud Thinker
-- **Nghi Danh** – Representative from Renova Cloud
-- **Trung VU** – CEO of R AI
-- **Kiet Tran** – AI Engineer & AWS Student Builder Group
-- **Bao Phan and Nguyen Nguyen** – Representatives from Cloud Kinetis
-- **Truong Tran and Minh Anh** – Representatives from Noventis
-- **Toan Nguyen** – AWS Security Builder
+- **Steve Tran** - CTO/Founder, CloudThinker
+- **Trung Vu** – CEO, Revve AI
+- **Nghi Danh** - AI Engineer, Renova Cloud
+- **Kiet Tran** - AI Engineer, AWS Student Builder Group
+- **Nguyen Nguyen** - Cloud Engineer, Cloud Kinetics
+- **Bao Phan** - Cloud Engineer, Cloud Kinetics
+- **Truong Tran** - AI Solution Sales, Noventiq
+- **Anh Dang** - Solution Sales, Noventiq
+- **Toan Nguyen** - AWS Security Builder
 
 ### Highlights: The Intersection of Networking & AI
 

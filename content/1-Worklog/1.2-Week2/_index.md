@@ -13,9 +13,9 @@ pre: " <b> 1.2. </b> "
 ### Tasks to be implemented this week:
 | Day | Task | Start Date | End Date | References |
 | --- | --- | --- | --- | --- |
-| Mon | - Local Packaging Operations <br>&emsp; + Use AWS CLI to retrieve the Token and authenticate access to AWS ECR. <br>&emsp; + Use the `docker build` command with the `--platform linux/amd64` flag to create the Image, helping prevent CPU architecture errors. | 04/27/2026 | 04/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | - Push Image to ECR repository <br>&emsp; + Tag the Image to match the ECR repository URI. <br>&emsp; + Use the `docker push` command to securely push the Backend Image to the AWS internal system. | 04/29/2026 | 04/30/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | - Launch on Amazon ECS <br>&emsp; + Access Amazon ECS to create a Cluster (logical network environment). <br>&emsp; + Create a Task Definition with 1 vCPU and 2 GiB RAM parameters, while granting the `ecsTaskExecutionRole`. <br>&emsp; + Create a Service to run the application and implement cost optimization by setting Desired tasks to 0 after testing. | 05/01/2026 | 05/03/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Local Packaging Operations <br>&emsp; + Use AWS CLI to retrieve the Token and authenticate access to AWS ECR. <br>&emsp; + Use the `docker build` command with the `--platform linux/amd64` flag to create the Image, helping prevent CPU architecture errors. | 04/27/2026 | 04/28/2026 | [FCAJ Documents](https://cloudjourney.awsstudygroup.com/) |
+| Wed | - Push Image to ECR repository <br>&emsp; + Tag the Image to match the ECR repository URI. <br>&emsp; + Use the `docker push` command to securely push the Backend Image to the AWS internal system. | 04/29/2026 | 04/30/2026 | [FCAJ Documents](https://cloudjourney.awsstudygroup.com/) |
+| Fri | - Launch on Amazon ECS <br>&emsp; + Access Amazon ECS to create a Cluster (logical network environment). <br>&emsp; + Create a Task Definition with 1 vCPU and 2 GiB RAM parameters, while granting the `ecsTaskExecutionRole`. <br>&emsp; + Create a Service to run the application and implement cost optimization by setting Desired tasks to 0 after testing. | 05/01/2026 | 05/03/2026 | [FCAJ Documents](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 2 Achievements:
 * Grasped the Serverless AWS Fargate model, thereby providing an independent environment to handle complex logic workloads (API communication, JWT security, Sockets) without relying on Firebase or a local SQLite database.

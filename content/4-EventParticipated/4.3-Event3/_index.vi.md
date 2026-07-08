@@ -5,7 +5,7 @@ weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
-# FCAJ Community Day - June 2026
+# BÀI THU HOẠCH: "FCAJ Community Day - June 2026"
 
 ![Ngày hội cộng đồng FCAJ](/images/Evt_3.png)
 
@@ -19,13 +19,15 @@ pre: " <b> 4.3. </b> "
 
 ### Danh Sách Diễn Giả
 
-- **Steve Tran** – Đại diện từ Cloud Thinker
-- **Nghi Danh** – Đại diện từ Renova Cloud
-- **Trung VU** – CEO của R AI
-- **Kiet Tran** – AI Engineer và AWS Student Builder Group
-- **Bao Phan và Nguyen Nguyen** – Đại diện từ Cloud Kinetis
-- **Truong Tran và Minh Anh** – Đại diện từ Noventis
-- **Toan Nguyễn** – AWS Security Builder
+- **Steve Tran** - CTO/Founder, CloudThinker
+- **Trung Vu** – CEO, Revve AI
+- **Nghi Danh** - AI Engineer, Renova Cloud
+- **Kiet Tran** - AI Engineer, AWS Student Builder Group
+- **Nguyen Nguyen** - Cloud Engineer, Cloud Kinetics
+- **Bao Phan** - Cloud Engineer, Cloud Kinetics
+- **Truong Tran** - AI Solution Sales, Noventiq
+- **Anh Dang** - Solution Sales, Noventiq
+- **Toan Nguyen** - AWS Security Builder
 
 ### Những Điểm Nổi Bật: Sự Giao Thoa Giữa Mạng & AI
 

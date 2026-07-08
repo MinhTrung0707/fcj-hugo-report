@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 Trong suốt thời gian thực tập tại **Bootcamp First Cloud AI Journey** từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **thiết kế hạ tầng mạng, đóng gói ứng dụng (Dockerize) và triển khai luồng tự động hóa CI/CD trên nền tảng điện toán đám mây AWS cho dự án "Mini Social Network"**. Trải nghiệm thực tế này không chỉ giúp tôi nâng cao năng lực **quy hoạch mạng đám mây (VPC/Subnet) và vận hành kiến trúc Serverless (AWS Fargate, ECR)**, mà còn hoàn thiện toàn diện bộ kỹ năng cốt lõi: từ **viết kịch bản tự động hóa (Dockerfile, Jenkinsfile), phân tích, vẽ và trực quan hóa sơ đồ hệ thống, đến kỹ năng lập báo cáo kỹ thuật và giao tiếp, phối hợp đồng bộ với các thành viên trong nhóm dưới áp lực cao**.  
+Tôi đã tham gia thiết kế hạ tầng mạng, đóng gói ứng dụng **(Dockerize)** và triển khai luồng tự động hóa CI/CD trên nền tảng điện toán đám mây AWS cho dự án **"Mini Social Network"**. Trải nghiệm thực tế này không chỉ giúp tôi nâng cao năng lực quy hoạch mạng đám mây **(VPC/Subnet)** và vận hành kiến trúc Serverless **(AWS Fargate, ECR)**, mà còn hoàn thiện toàn diện bộ kỹ năng cốt lõi: từ viết kịch bản tự động hóa **(Dockerfile, Jenkinsfile)**, phân tích, vẽ và trực quan hóa sơ đồ hệ thống, đến kỹ năng lập báo cáo kỹ thuật và giao tiếp, phối hợp đồng bộ với các thành viên trong nhóm dưới áp lực cao.  
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
 

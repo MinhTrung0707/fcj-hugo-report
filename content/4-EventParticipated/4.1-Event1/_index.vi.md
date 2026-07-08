@@ -6,7 +6,7 @@ weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
- # FCAJ Community day - May 2026
+ # BÀI THU HOẠCH: "FCAJ Community day - May 2026"
  
 
 
@@ -20,12 +20,14 @@ pre: " <b> 4.1. </b> "
 
 ### Danh Sách Diễn Giả
 
-- **TINH TRUONG** - Build second brain
-- **Anh PHAM** - Friendly AI Assistant with Amazon Q
-- **THINH NGUYEN** - From Edge To Origin: CloudFront as Your Foundation
-- **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
-- **DUC DAO** - Deep dive talk: How LLM actually works?
-- **VY LAM** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
+- **Tinh Truong** - Platform Engineer, GoTymeX
+- **Anh Pham** – Cloud Consultant, G-AsiaPacific Vietnam
+- **Thinh Nguyen** - DevOps Engineer, FCAJ
+- **Thao Nguyen** - GenAI Engineer, VIB
+- **Mai Nguyen** - GenAI Engineer, VIB
+- **Uyen Le** - GenAI Engineer, VIB
+- **Duc Dao** - Solutions Architect, Cloud Kinetics
+- **Vy Lam** - Senior Business Systems Analyst, VPBank
 
 ### Nội Dung Nổi Bật
 

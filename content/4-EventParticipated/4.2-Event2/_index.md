@@ -5,7 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-# Cloud Architect
+# SUMMARY REPORT: "Cloud Architect"
 
 ![Event check-in picture](/images/Evt_2.png)
 

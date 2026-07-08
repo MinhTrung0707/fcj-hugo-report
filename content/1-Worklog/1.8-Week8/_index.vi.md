@@ -15,7 +15,7 @@ pre: " <b> 1.8. </b> "
 | --- | --- | --- | --- | --- |
 | 2 | - Nghiên cứu tài liệu (Research) <br>&emsp; + Tìm kiếm, chọn lọc các chủ đề chuyên môn mạng máy tính phù hợp cho bài Blog số 3. <br>&emsp; + Đọc hiểu các tài liệu kỹ thuật của AWS về VPC, Subnet và Routing để làm tư liệu dẫn chứng. | 08/06/2026 | 09/06/2026 | [AWS Blogs](https://aws.amazon.com/blogs/) |
 | 4 | - Xây dựng nội dung thiết kế hạ tầng mạng đám mây <br>&emsp; + Tổng hợp thông tin từ quá trình research để cấu trúc thành một dàn ý logic về luồng định tuyến dữ liệu từ User qua Load Balancer xuống Container. <br>&emsp; + Chuẩn bị sẵn các ý chính để trình bày ý tưởng kiến trúc bảo mật nhiều lớp (Defense-in-Depth) trước nhóm. | 10/06/2026 | 11/06/2026 | [AWS Blogs](https://aws.amazon.com/blogs/) |
-| 6 | - Viết bản nháp (Drafting) và vẽ sơ đồ minh họa <br>&emsp; + Triển khai viết chi tiết các phân đoạn kỹ thuật dựa trên dàn ý đã chốt. <br>&emsp; + Sử dụng Draw.io để vẽ phác thảo sơ đồ luồng VPC cơ bản nhằm minh họa trực quan cho bài Blog. | 12/06/2026 | 12/06/2026 | [AWS Blogs](https://aws.amazon.com/vi/architecture/icons/)  |
+| 6 | - Viết bản nháp (Drafting) và vẽ sơ đồ minh họa <br>&emsp; + Triển khai viết chi tiết các phân đoạn kỹ thuật dựa trên dàn ý đã chốt. <br>&emsp; + Sử dụng Draw.io để vẽ phác thảo sơ đồ luồng VPC cơ bản nhằm minh họa trực quan cho bài Blog. | 12/06/2026 | 12/06/2026 | [AWS Blogs](https://aws.amazon.com/vi/architecture/icons/) |
 
 ### Kết quả đạt được tuần 8:
 * Đã hoàn thành bước Research và định hình được khung nội dung cốt lõi về luồng định tuyến mạng cho bài Blog số 3.

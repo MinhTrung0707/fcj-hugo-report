@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 During my internship at **Bootcamp First Cloud AI Journey** from **April 17, 2026** to **July 10, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired at university to a real-world working environment.  
-I participated in **designing network infrastructure, containerizing applications (Dockerize), and deploying CI/CD automation pipelines on the AWS cloud computing platform for the "Mini Social Network" project**. This practical experience not only helped me enhance my capabilities in **cloud network planning (VPC/Subnet) and operating Serverless architectures (AWS Fargate, ECR)**, but also comprehensively perfected my core skill set: from **writing automation scripts (Dockerfile, Jenkinsfile), analyzing, drawing, and visualizing system diagrams, to technical report writing, communication, and synchronous collaboration with team members under high pressure**.  
+I participated in designing network infrastructure, containerizing applications **(Dockerize)**, and deploying CI/CD automation pipelines on the AWS cloud computing platform for the **"Mini Social Network"** project. This practical experience not only helped me enhance my capabilities in cloud network planning **(VPC/Subnet)** and operating Serverless architectures **(AWS Fargate, ECR)**, but also comprehensively perfected my core skill set: from writing automation scripts **(Dockerfile, Jenkinsfile)**, analyzing, drawing, and visualizing system diagrams, to technical report writing, communication, and synchronous collaboration with team members under high pressure.  
 
 Regarding my work ethic, I always strive to complete tasks well, adhere to regulations, and actively communicate with colleagues to improve work efficiency.
 

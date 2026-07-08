@@ -5,7 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-# Cloud Architect
+# Bài thu hoạch: "Cloud Architect"
 
 ![Ảnh check-in tại sự kiện](/images/Evt_2.png)
 

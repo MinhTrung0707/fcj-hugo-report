@@ -27,7 +27,7 @@ During my internship, I participated in three events. Each one was a memorable e
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
-&emsp;**Role:** Competition Participant
+&emsp;**Role:** Competition Participant (Member of PrimeOps Team)
 
 ### [Event 3](4.3-Event3/)  
 &emsp;**Event Name:** FCAJ Community Day - June 2026  

@@ -27,7 +27,7 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trò trong sự kiện:** Người tham gia cuộc thi 
+&emsp;**Vai trò trong sự kiện:** Người tham gia cuộc thi (Thành viên nhóm PrimeOps)
 
 
 ### [Event 3](4.3-Event3/)
