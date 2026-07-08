@@ -13,9 +13,9 @@ pre: " <b> 1.6. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Viết kịch bản IaC cơ bản <br>&emsp; + Viết script `infrastructure.yaml` định nghĩa tài nguyên mạng ảo VPC (10.0.0.0/16) và Internet Gateway. <br>&emsp; + Khai báo cấu hình 2 Public Subnets và 2 Private Subnets trải đều ở các Availability Zones (AZ) khác nhau. | 25/05/2026 | 26/05/2026 | AWS CloudFormation Docs |
-| 4 | - Cấu hình định tuyến và bảo mật <br>&emsp; + Khởi tạo Route Table để định tuyến cho mạng Public Subnet thông ra Internet. <br>&emsp; + Viết thông số khởi tạo các Security Groups tách biệt: ALB (mở Port 80) và Backend (mở Port 8080). | 27/05/2026 | 28/05/2026 | AWS CloudFormation Docs |
-| 6 | - Triển khai tự động tài nguyên <br>&emsp; + Bổ sung khối tài nguyên Application Load Balancer (ALB) vào file YAML. <br>&emsp; + Tải file `infrastructure.yaml` lên AWS CloudFormation, đặt tên stack là `MiniSocial-Tuan6-Infra` và thực thi lệnh khởi tạo. | 29/05/2026 | 31/05/2026 | Dự án nhóm |
+| 2 | - Viết kịch bản IaC cơ bản <br>&emsp; + Viết script `infrastructure.yaml` định nghĩa tài nguyên mạng ảo VPC (10.0.0.0/16) và Internet Gateway. <br>&emsp; + Khai báo cấu hình 2 Public Subnets và 2 Private Subnets trải đều ở các Availability Zones (AZ) khác nhau. | 25/05/2026 | 26/05/2026 | [AWS CloudFormationn](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true) |
+| 4 | - Cấu hình định tuyến và bảo mật <br>&emsp; + Khởi tạo Route Table để định tuyến cho mạng Public Subnet thông ra Internet. <br>&emsp; + Viết thông số khởi tạo các Security Groups tách biệt: ALB (mở Port 80) và Backend (mở Port 8080). | 27/05/2026 | 28/05/2026 | [AWS CloudFormationn](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true) |
+| 6 | - Triển khai tự động tài nguyên <br>&emsp; + Bổ sung khối tài nguyên Application Load Balancer (ALB) vào file YAML. <br>&emsp; + Tải file `infrastructure.yaml` lên AWS CloudFormation, đặt tên stack là `MiniSocial-Tuan6-Infra` và thực thi lệnh khởi tạo. | 29/05/2026 | 31/05/2026 | Tài Liệu Nhóm |
 
 ### Kết quả đạt được tuần 6:
 * Hoàn tất kịch bản mã IaC chuẩn xác, liên kết thành công Load Balancer, các lớp Subnets và Security Group.

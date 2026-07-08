@@ -6,31 +6,31 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-### Week 12 Objectives:
-* Analyze, review, and finalize the Final version of the project's architecture diagram (Minisocial Architect) based on budget constraints.
-* Complete 100% of the content on the Hugo Server & Internship Report, conduct cross-checking with the team.
+### Objectives for Week 12:
+* Conduct a final review and audit of the project architecture (Minisocial Architect), prioritizing cost-optimization constraints.
+* Finalize 100% of the Hugo Server documentation and the internship report, ensuring accuracy through rigorous cross-checking with the team.
 
-### Tasks to be implemented this week:
-| Day | Task | Start Date | End Date | References |
+### Task Breakdown:
+| Day | Tasks | Start Date | Completion | Documentation Source |
 | --- | --- | --- | --- | --- |
-| Mon | - Analyze and review the Minisocial Architect diagram <br>&emsp; + Evaluate the current state of network infrastructure (VPC, Subnets, Traffic Optimization). <br>&emsp; + Identify infrastructure limitations (using only 1 NAT Gateway in AZ A and Single-AZ for RDS). Assess risks and decide to maintain this structure to ensure cost optimization for the project's current scale. | 06/07/2026 | 06/07/2026 | Current system diagram |
-| Tue | - Finalize the Final diagram and submit the report <br>&emsp; + Refine the diagram: Tidy up the layout, realign connection lines to clarify Logic and Physical communication flows (especially the Outbound Traffic flow via NAT Gateway). <br>&emsp; + Finalize the Hugo Server & Internship Report, proceed with cross-checking, and submit before the deadline (Deadline: 23:59 Tue 07/07). | 07/07/2026 | 07/07/2026 | Draw.io diagram / Internal platform |
+| Mon | - Analysis & Audit of Minisocial Architect Diagram <br>&emsp; + Evaluated current network infrastructure (VPC, Subnets, Traffic Optimization). <br>&emsp; + Identified infrastructure constraints (e.g., single NAT Gateway in AZ A and Single-AZ RDS). Conducted risk assessment and decided to maintain the current structure to ensure budget optimization for the project’s current scale. | 2026-07-06 | 2026-07-06 | [Optimized Architecture](https://mini-social-architect.s3.ap-southeast-1.amazonaws.com/MiniSocial-Architect-ToiUuChiPhi.png) |
+| Tue | - Finalizing Architecture & Report Submission <br>&emsp; + Refined the diagram: Streamlined layout, adjusted connection lines to clarify Logical and Physical traffic flows (specifically Outbound Traffic via NAT Gateway). <br>&emsp; + Finalized Hugo Server & internship report, performed cross-checking, and submitted ahead of the deadline (Deadline 23:59, Tuesday, July 7). | 2026-07-07 | 2026-07-07 | [Final Architecture](https://mini-social-architect.s3.ap-southeast-1.amazonaws.com/MiniSocial-Architect-ToiUuChiPhi.png) |
 
-### Week 12 Achievements:
-* Completed in-depth review and finalized the Minisocial Architecture Diagram Final version (preserved the current infrastructure structure to optimize the budget, perfected the visual presentation).
-* Strictly executed cross-checking of documents according to team rules, ensuring no errors.
-* Completed all content and successfully submitted the Hugo Server and Internship Report on time (completed before 23:59 Tuesday, July 07, 2026).
+### Results for Week 12:
+* Completed a deep-dive audit and finalized the "Minisocial Architect" diagram (version: Final), optimizing visual presentation while maintaining a cost-effective infrastructure design.
+* Adhered strictly to the team’s cross-check policy, ensuring the documentation was error-free.
+* Completed and successfully submitted the Hugo Server documentation and the final internship report before the deadline (23:59, Tuesday, July 7, 2026).
 
-### Other Activities / Implementation Evidence:
+### Implementation Evidence:
 
-#### 1. Week 12 Task Assignment Board
-Records the task assignments during the Graceful Shutdown & Documentation phase. The tasks "Analyze, review, edit the final version of the Minisocial Architect diagram" and "finalize the report" were handled on time. 
+#### 1. Week 12 Task Tracking
+Recording the completion of the "Graceful Shutdown & Documentation" phase. Tasks regarding the analysis, audit, and finalization of the Minisocial Architect diagram, along with report completion, were executed on schedule.
 
-![Week 12 task progress tracking board](/images/Tuan12.png)
-*(Extracurricular activity note: The team flexibly organized a direct acceptance meeting at a coffee shop on Wednesday, July 08 to unify the handover and close the project).*
-![Week 12 task progress tracking board](/images/Tuan12-1.png)
+![Week 12 Progress Tracking](/images/Tuan12.png)
+*(Note: To facilitate the project handover, the team held an informal meeting on Wednesday, July 8, to unify final project deliverables).*
+![Week 12 Progress Tracking](/images/Tuan12-1.png)
 
 #### 2. Architecture Diagram (Final Version)
-The final drawing was refined to provide the most visual presentation of the project's ecosystem. The diagram focuses on clarifying core network communication flows (VPC Gateway Endpoint for S3, Outbound Traffic via NAT Gateway) and the decision to maintain the Single-AZ design for the Database to align with the team's cost optimization problem.
+The final diagram has been refined for maximum clarity regarding the project ecosystem. It highlights core network connections (VPC Gateway Endpoints for S3, Outbound Traffic via NAT Gateway) and reflects the team's strategic decision to maintain a Single-AZ database design to adhere to strict cost-optimization requirements.
 
-![Architecture Diagram](/images/SoDoKienTrucDaChinhSua.drawio.png)
+![Minisocial Final Architecture](/images/SoDoKienTrucDaChinhSua.drawio.png)

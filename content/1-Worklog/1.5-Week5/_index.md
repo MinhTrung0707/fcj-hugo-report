@@ -13,9 +13,9 @@ pre: " <b> 1.5. </b> "
 ### Tasks to be implemented this week:
 | Day | Task | Start Date | End Date | References |
 | --- | --- | --- | --- | --- |
-| Mon | - Design System Architecture Diagram <br>&emsp; + Use the Draw.io tool with standard AWS Architecture Icons. <br>&emsp; + Clearly partition into 4 layers: Network (VPC), Subnetting (Public/Private Subnet), and External Storage Layer. | 05/18/2026 | 05/19/2026 | https://aws.amazon.com/vi/architecture/icons/ |
-| Wed | - Plan Traffic Flow <br>&emsp; + Use colored arrows to simulate the access flow: User -> Internet -> WAF -> ALB -> Fargate -> RDS/S3. <br>&emsp; + Design a detailed Legend for each type of arrow. | 05/20/2026 | 05/21/2026 |  https://aws.amazon.com/vi/architecture/icons/ |
-| Fri | - Publish and Analyze Architecture <br>&emsp; + Export the source file (.drawio) and high-resolution image file (PNG/PDF) with a transparent background. <br>&emsp; + Assist the team in writing documentation to decode the 3-Tier architecture. | 05/22/2026 | 05/24/2026 | https://aws.amazon.com/vi/architecture/icons/ |
+| Mon | - Design System Architecture Diagram <br>&emsp; + Use the Draw.io tool with standard AWS Architecture Icons. <br>&emsp; + Clearly partition into 4 layers: Network (VPC), Subnetting (Public/Private Subnet), and External Storage Layer. | 05/18/2026 | 05/19/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| Wed | - Plan Traffic Flow <br>&emsp; + Use colored arrows to simulate the access flow: User -> Internet -> WAF -> ALB -> Fargate -> RDS/S3. <br>&emsp; + Design a detailed Legend for each type of arrow. | 05/20/2026 | 05/21/2026 |  [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| Fri | - Publish and Analyze Architecture <br>&emsp; + Export the source file (.drawio) and high-resolution image file (PNG/PDF) with a transparent background. <br>&emsp; + Assist the team in writing documentation to decode the 3-Tier architecture. | 05/22/2026 | 05/24/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
 
 ### Week 5 Achievements:
 * 100% completed the architectural diagram accurately simulating the current infrastructure status of the "Mini Social Network" project.

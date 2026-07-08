@@ -1,14 +1,14 @@
 ---
-title: "FCAJ Community day - May 2026"
+title: "EVENT 1"
 date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+ # FCAJ Community day - May 2026
 ![Event image on the 36th floor - Part 3](/images/Evt_1.png)
 
-# Reflection Report “FCAJ Community day - May 2026”
 
 ### Event Purpose
 
@@ -18,12 +18,12 @@ pre: " <b> 4.1. </b> "
 
 ### List of Speakers
 
-- **Mr. Tinh** - Build second brain
-- **Hai Anh** - Friendly AI Assistant with Amazon Q
-- **Mr. Thinh** - From Edge To Origin: CloudFront as Your Foundation
+- **TINH TRUONG** - Build second brain
+- **Anh PHAM** - Friendly AI Assistant with Amazon Q
+- **THINH NGUYEN** - From Edge To Origin: CloudFront as Your Foundation
 - **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
-- **Dao Duc** - Deep dive talk: How LLM actually works?
-- **Cat Vy** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
+- **DUC DAO** - Deep dive talk: How LLM actually works?
+- **VY LAM** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Key Highlights
 

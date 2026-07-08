@@ -14,8 +14,8 @@ pre: " <b> 1.3. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Sửa lỗi và thiết lập ECR <br>&emsp; + Fix lỗi `NullPointerException` tại `NotificationServiceTest.java` bằng cách cấu hình lại kết nối Database và mock data. <br>&emsp; + Khởi tạo 2 Repositories Private trên ECR (`minisocial-backend` và `minisocial-frontend`). | 04/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Cấu hình Frontend và Jenkinsfile <br>&emsp; + Áp dụng Multi-stage build và viết thêm file `nginx.conf` cho Frontend để xử lý React Router SPA và Reverse Proxy tránh lỗi CORS. <br>&emsp; + Khởi tạo file Jenkinsfile khai báo biến môi trường AWS, cấu hình bước Checkout, Build Docker, Login ECR và Push Image. | 06/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Sửa lỗi và thiết lập ECR <br>&emsp; + Fix lỗi `NullPointerException` tại `NotificationServiceTest.java` bằng cách cấu hình lại kết nối Database và mock data. <br>&emsp; + Khởi tạo 2 Repositories Private trên ECR (`minisocial-backend` và `minisocial-frontend`). | 04/05/2026 | 05/05/2026 | [Tài liệu First Cloud AI Journey](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Cấu hình Frontend và Jenkinsfile <br>&emsp; + Áp dụng Multi-stage build và viết thêm file `nginx.conf` cho Frontend để xử lý React Router SPA và Reverse Proxy tránh lỗi CORS. <br>&emsp; + Khởi tạo file Jenkinsfile khai báo biến môi trường AWS, cấu hình bước Checkout, Build Docker, Login ECR và Push Image. | 06/05/2026 | 07/05/2026 | [Tài liệu First Cloud AI Journey](https://cloudjourney.awsstudygroup.com/) |
 | 6 | - Tối ưu Pipeline, Deploy tự động và Họp nhóm <br>&emsp; + Xử lý lỗi treo Pipeline bằng cách xóa lệnh `npm ci` ngoài Host, chuyển vào Stage 1 của Docker (Alpine Linux) để tránh nghẽn I/O. <br>&emsp; + Tạo Job Pipeline mới trên Jenkins, trỏ tới kho GitHub và thực thi tự động. <br>&emsp; + Tham gia họp nhóm Offline để tổng kết và trình chiếu kết quả. | 08/05/2026 | 10/05/2026 | Báo cáo nội bộ |
 
 ### Kết quả đạt được tuần 3:

@@ -1,14 +1,14 @@
 ---
-title: "FCAJ Community Day - June 2026"
+title: "EVENT 3"
 date: 2026-06-27
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
+# FCAJ Community Day - June 2026
 
 ![Ngày hội cộng đồng FCAJ](/images/Evt_3.png)
 
-# Bài thu hoạch “FCAJ Community Day - June 2026”
 
 ### Mục Tiêu Sự Kiện (Góc nhìn Hạ tầng & Vận hành)
 
@@ -19,14 +19,13 @@ pre: " <b> 4.3. </b> "
 
 ### Danh Sách Diễn Giả
 
-- **Steve Trần** – Đại diện từ Cloud Thinker
-- **Hiếu Nghị** – Đại diện từ Renova Cloud
-- **Trung** – AWS Study Builder
-- **Trung Đ** – CEO của R AI
-- **Kiệt** – Chuyên gia chia sẻ về kiến trúc hạ tầng cho ứng dụng AI giọng nói
-- **Bảo và Nguyên** – Đại diện từ Cloud Kinetis
-- **Trường và Minh Anh** – Đại diện từ Noventis
-- **Toàn Nguyễn** – AWS Security Builder
+- **Steve Tran** – Đại diện từ Cloud Thinker
+- **Nghi Danh** – Đại diện từ Renova Cloud
+- **Trung VU** – CEO của R AI
+- **Kiet Tran** – AI Engineer và AWS Student Builder Group
+- **Bao Phan và Nguyen Nguyen** – Đại diện từ Cloud Kinetis
+- **Truong Tran và Minh Anh** – Đại diện từ Noventis
+- **Toan Nguyễn** – AWS Security Builder
 
 ### Những Điểm Nổi Bật: Sự Giao Thoa Giữa Mạng & AI
 

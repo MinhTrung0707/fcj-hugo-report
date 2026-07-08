@@ -1,14 +1,16 @@
 ---
-title: "FCAJ Community day - May 2026"
+title: "EVENT 1"
+
 date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
+ # FCAJ Community day - May 2026
+ 
+
 
 ![Hình ảnh sự kiện tầng 36 - Phần 2](/images/Evt_1.png)
-
-# Bài thu hoạch “FCAJ Community day - May 2026”
 
 ### Mục Đích Của Sự Kiện
 
@@ -18,12 +20,12 @@ pre: " <b> 4.1. </b> "
 
 ### Danh Sách Diễn Giả
 
-- **Anh Tịnh** - Build second brain
-- **Hải Anh** - Friendly AI Assistant with Amazon Q
-- **Anh Thịnh** - From Edge To Origin: CloudFront as Your Foundation
+- **TINH TRUONG** - Build second brain
+- **Anh PHAM** - Friendly AI Assistant with Amazon Q
+- **THINH NGUYEN** - From Edge To Origin: CloudFront as Your Foundation
 - **Team VIB** - 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality
-- **Đào Đức** - Deep dive talk: How LLM actually works?
-- **Cát Vy** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
+- **DUC DAO** - Deep dive talk: How LLM actually works?
+- **VY LAM** - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 
 ### Nội Dung Nổi Bật
 

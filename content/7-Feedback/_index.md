@@ -1,51 +1,49 @@
 ---
-title: "Feedback and Contributions"
-date: 2024-01-01
+title: "Feedback & Suggestions"
+date: 2026-07-08
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> Here, you can freely share your personal feedback and experiences while participating in the First Cloud AI Journey program, helping the FCAJ team improve any shortcomings based on the following categories:
-
 ### General Assessment
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always ready to support when I face difficulties, even outside working hours. The workspace is neat and comfortable, which helps me focus better. However, I think some networking or team bonding sessions could be added so everyone can understand each other better.
+**1. Work Environment**  
+FCAJ provides a highly technical, open, and proactive work environment. Although structured as a training bootcamp, the team-based operation (3-5 members) is exceptionally professional, allowing interns to quickly adapt to real-world project workflows. The AWS office environment is incredibly inspiring, enabling me to stay deeply focused on architectural design and tackling complex infrastructure challenges.
 
-**2. Support from mentor / team admin**  
-The mentor provides very detailed guidance, explains clearly when I don't understand, and always encourages me to ask questions. The team admin supports with procedures, documentation, and creates favorable conditions for me to work smoothly. I highly appreciate that the mentor allows me to try and troubleshoot problems myself instead of just providing the answers.
+**2. Mentorship & Support Team**  
+The mentors provide close guidance, focusing on cultivating a self-study mindset rather than simply providing direct answers. The support team is always available to resolve AWS resource issues (Quota, Account). In particular, the prompt feedback from technical experts helped me successfully troubleshoot various critical issues during VPC networking and WAF configuration.
 
-**3. Alignment between work and major**  
-The assigned work aligns well with the knowledge I acquired at university, while also expanding into new areas I haven't approached before. Thanks to this, I was able to both consolidate my foundational knowledge and learn new practical skills.
+**3. Alignment with Academic Background**  
+This was a perfect synergy. The program transformed academic concepts—such as the OSI model, IP routing, and Linux system administration—into tangible cloud infrastructure solutions. I gained exposure to DevSecOps and IaC (Infrastructure as Code) workflows, which are "golden" skills that few university modules offer with such practical depth.
 
-**4. Opportunities for learning & skill development**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared many practical experiences that helped me better orient my career path.
+**4. Learning Opportunities & Skill Development**  
+The internship empowered me to master system design thinking, become proficient in CI/CD automation tools, and sharpen my troubleshooting skills. Hands-on configuration of AWS infrastructure and navigating real-world system failures were the most valuable lessons, solidifying my career path as a professional Cloud Infrastructure Engineer.
 
-**5. Culture & team spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still has fun. When there is an urgent project, everyone strives together and supports each other regardless of position. This makes me feel like a part of the team, even though I am just an intern.
+**5. Culture & Team Spirit**  
+The team spirit at FCAJ is outstanding. Despite the hybrid (online/offline) working model, members maintained tight collaboration through progress tracking and regular reviews. I felt a strong sense of mutual professional respect between the Dev and Ops teams, which was fundamental to the successful and timely delivery of our "Mini Social Network" project.
 
-**6. Policies / benefits for interns**  
-The company provides an internship allowance and flexible working hours when necessary. In addition, being able to participate in internal training sessions is a big plus.
+**6. Policies & Benefits**  
+The program offered flexible scheduling, allowing me to effectively balance university commitments with critical infrastructure tasks. Gaining direct, hands-on access to enterprise-grade AWS services was an invaluable career benefit.
 
-### Other Questions
 
-- **What were you most satisfied with during your internship?**  
-  What makes me most proud and satisfied is the "hands-on" experience with core AWS services. Instead of just learning theory, I personally designed the infrastructure, smoothly handled the CI/CD automation pipeline, and containerized applications to deploy on ECR and Fargate. Besides, the flexibility and cohesive spirit of the team members (even when we registered but weren't approved by FCAJ to go to the office, so we went to a coffee shop for team meetings) was also a wonderful highlight.
+### Other Feedback
+- **What was the most rewarding aspect of your internship?**  
+  The most rewarding aspect was implementing the "Defense-in-depth" mindset within an AWS architecture. From VPC networking planning and WAF deployment to centralized configuration management via Parameter Store (moving away from hardcoded variables)—seeing the API flow securely from the Frontend through WAF, ALB, and ECS was genuinely satisfying.
 
-- **What do you think the company needs to improve for future interns?**  
-  I hope the program can improve the approval mechanism for working directly at the AWS office. Because the current system selects randomly, sometimes I "MISSED" multiple weeks in a row, leading to a lack of professional workspace experience with the whole team. It would be great if every intern were guaranteed to go to the office at least 1-2 times/week throughout the course.
+- **What could the program improve for future interns?**  
+  I suggest optimizing the offline office booking mechanism. Random slot allocation sometimes leads to missed opportunities for team collaboration. An "imminent milestone" priority mechanism (e.g., during Stress Test preparation weeks) would be highly effective for optimizing Demo and debugging sessions.
 
-- **If you were to introduce this to your friends, would you recommend they intern here? Why?**  
-  Absolutely! Especially for those passionate about Systems, Computer Networking, or Cloud Computing. The program is not only an ideal place to transform knowledge from academic Labs into real project architectures, but it also helps train extremely effective troubleshooting mindsets under work pressure.
+- **Would you recommend this internship to your peers?**  
+  Absolutely. This is the premier "training ground" for anyone passionate about Networking, Cloud Infrastructure, and DevOps. The program pushes students out of their comfort zones, exposes them to real-world pressure, and equips them with industry-standard system design thinking before they even graduate.
 
-### Suggestions & Expectations
 
-- **Do you have any suggestions to improve the internship experience?**  
-  I suggest the FCAJ team organize more intensive Workshops or Q&A sessions on "Troubleshooting" skills when the system faces heavy load issues or virtual network bottlenecks (VPC/Subnet). In addition, if the offline meeting quota (number of slots) is increased, coordinating Demo runs among members would be even more explosive.
+### Suggestions & Future Outlook
+- **Any recommendations to improve the experience?**  
+  I recommend hosting deep-dive Tech-talks on advanced Troubleshooting (e.g., debugging Route Table conflicts or troubleshooting NAT Gateway bandwidth congestion). Furthermore, "Infrastructure CodeReview" workshops between teams would significantly elevate the system design capabilities of all interns.
 
-- **Do you want to continue this program in the future?**
-  I really look forward to continuing this journey if the program has a more advanced development roadmap (for example, aiming for specialized certifications at the Solutions Architect level) or opens up long-term collaboration opportunities.
+- **Are you interested in continuing with the program?**
+  I am very keen on continuing with the FCAJ community, particularly for advanced tracks (such as the AWS Solutions Architect Professional certification) or long-term operational project collaboration.
 
-- **Other feedback (feel free to share):**
-  Thank you to the FCAJ team for creating an extremely valuable environment for practical experience. Events like the "Cloud Architect" competition or "Community Day" have inspired me greatly to pursue a career as a professional cloud computing engineer. Wishing the program continued strong growth!
+- **Additional Comments:**
+  Thank you to the entire FCAJ team for creating such a high-quality technology playground. Events like the "Cloud Architect Competition" have been a massive source of inspiration, fueling my commitment to a professional career in cloud computing. Wishing the program continued success and growth!

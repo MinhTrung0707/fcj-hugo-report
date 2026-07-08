@@ -1,19 +1,18 @@
 ---
-title: "Cloud Architect"
+title: "EVENT 2"
 date: 2026-06-20
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
+# Cloud Architect
 
 ![Ảnh check-in tại sự kiện](/images/Evt_2.png)
 
-# Bài thu hoạch Cuộc thi "Cloud Architect"
 
 **Vai trò tham dự:** Thí sinh thi đấu (Thành viên nhóm PrimeOps)
 
 ### Mục Đích Của Sự Kiện
-
 - Tạo ra một môi trường giả lập áp lực cao, đòi hỏi người tham gia phải vận dụng tư duy của một Kiến trúc sư Hệ thống để giải quyết các bài toán hạ tầng mạng thực tế trên AWS.
 - Đánh giá khả năng chuyển hóa kiến thức hàn lâm thành phản xạ thực chiến: Từ việc hiểu dịch vụ cơ bản (Cloud Practitioner) đến thiết kế luồng dữ liệu chuẩn xác (SAA) và tối ưu hóa kiến trúc đa vùng cấp cao (SAP).
 - Thử thách năng lực xử lý sự cố, bảo mật hệ thống và tối ưu chi phí hạ tầng (Cost Optimization) trong các giới hạn khắt khe của doanh nghiệp.

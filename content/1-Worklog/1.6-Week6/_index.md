@@ -13,9 +13,9 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be implemented this week:
 | Day | Task | Start Date | End Date | References |
 | --- | --- | --- | --- | --- |
-| Mon | - Write foundational IaC script <br>&emsp; + Draft the `infrastructure.yaml` script defining the VPC (10.0.0.0/16) and Internet Gateway resources. <br>&emsp; + Declare configurations for 2 Public Subnets and 2 Private Subnets distributed across different Availability Zones (AZs). | 05/25/2026 | 05/26/2026 | AWS CloudFormation Docs |
-| Wed | - Configure routing and security <br>&emsp; + Provision a Route Table to route Public Subnet traffic to the Internet. <br>&emsp; + Define initialization parameters for separate Security Groups: ALB (opening Port 80) and Backend (opening Port 8080). | 05/27/2026 | 05/28/2026 | AWS CloudFormation Docs |
-| Fri | - Automate resource deployment <br>&emsp; + Append the Application Load Balancer (ALB) resource block into the YAML file. <br>&emsp; + Upload the `infrastructure.yaml` template to AWS CloudFormation, name the stack `MiniSocial-Tuan6-Infra`, and execute the creation command. | 05/29/2026 | 05/31/2026 | Team Project |
+| Mon | - Write foundational IaC script <br>&emsp; + Draft the `infrastructure.yaml` script defining the VPC (10.0.0.0/16) and Internet Gateway resources. <br>&emsp; + Declare configurations for 2 Public Subnets and 2 Private Subnets distributed across different Availability Zones (AZs). | 05/25/2026 | 05/26/2026 | [AWS CloudFormationn](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true) |
+| Wed | - Configure routing and security <br>&emsp; + Provision a Route Table to route Public Subnet traffic to the Internet. <br>&emsp; + Define initialization parameters for separate Security Groups: ALB (opening Port 80) and Backend (opening Port 8080). | 05/27/2026 | 05/28/2026 | [AWS CloudFormationn](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true) |
+| Fri | - Automate resource deployment <br>&emsp; + Append the Application Load Balancer (ALB) resource block into the YAML file. <br>&emsp; + Upload the `infrastructure.yaml` template to AWS CloudFormation, name the stack `MiniSocial-Tuan6-Infra`, and execute the creation command. | 05/29/2026 | 05/31/2026 | Team Docs |
 
 ### Week 6 Achievements:
 * Completed an accurate IaC script, successfully linking the Load Balancer, Subnet layers, and Security Groups.

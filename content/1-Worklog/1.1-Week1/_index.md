@@ -14,7 +14,7 @@ pre: " <b> 1.1. </b> "
 | Day | Task | Start Date | End Date | References |
 | --- | --- | --- | --- | --- |
 | Mon | - Receive Database Schema and calculate resources <br>&emsp; + Analyze DB structure from the Backend team <br>&emsp; + Calculate preliminary RAM/CPU capacity for RDS and ECS to optimize costs | 04/20/2026 | 04/21/2026 | Team Docs |
-| Wed | - Build deployment script (Containerization) <br>&emsp; + Write a temporary `docker-compose.yml` file for Frontend, Backend, and Database <br>&emsp; + Optimize Backend Dockerfile (Maven build, JRE) and Frontend Dockerfile (Nginx) | 04/22/2026 | 04/23/2026 | Docker Docs |
+| Wed | - Build deployment script (Containerization) <br>&emsp; + Write a temporary `docker-compose.yml` file for Frontend, Backend, and Database <br>&emsp; + Optimize Backend Dockerfile (Maven build, JRE) and Frontend Dockerfile (Nginx) | 04/22/2026 | 04/23/2026 | Team Docs |
 | Fri | - Testing and packaging <br>&emsp; + Run system tests using Docker Compose <br>&emsp; + Verify port configurations and connections between containers | 04/24/2026 | 04/25/2026 
 
 ### Week 1 Achievements:

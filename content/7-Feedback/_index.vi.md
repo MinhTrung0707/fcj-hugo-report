@@ -1,52 +1,49 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+date: 2026-07-08
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
-
 ### Đánh giá chung
 
 **1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+FCAJ xây dựng một môi trường làm việc đậm chất kỹ thuật, cởi mở và đề cao tinh thần chủ động. Mặc dù là chương trình đào tạo nhưng cách vận hành nhóm (3-5 thành viên) rất chuyên nghiệp, tạo điều kiện tối đa để thực tập sinh làm quen với mô hình làm việc dự án thực tế. Không gian làm việc tại văn phòng AWS vô cùng truyền cảm hứng, giúp mình tập trung cao độ vào việc thiết kế kiến trúc và xử lý các bài toán hạ tầng phức tạp.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Sự hỗ trợ từ Mentor / Đội ngũ hỗ trợ**  
+Mentor dẫn dắt rất sát sao, không cung cấp "lời giải" trực tiếp mà định hướng tư duy để thực tập sinh tự nghiên cứu (self-study). Đội ngũ hỗ trợ luôn sẵn sàng giải đáp các vướng mắc về tài nguyên AWS (Quota, Account). Đặc biệt, sự phản hồi kịp thời từ đội ngũ chuyên gia đã giúp mình gỡ rối thành công nhiều vấn đề nan giải trong quá trình triển khai hệ thống mạng VPC và cấu hình tường lửa WAF.
 
 **3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+Đây là sự kết nối hoàn hảo. Công việc tại chương trình đã chuyển hóa những kiến thức lý thuyết hàn lâm về Mô hình OSI, định tuyến IP hay quản trị hệ thống Linux từ chuyên ngành Mạng máy tính thành các giải pháp hạ tầng đám mây cụ thể. Mình được tiếp cận với quy trình DevSecOps và IaC – những kỹ năng "vàng" mà rất ít học phần tại trường có thể mang lại trải nghiệm thực chiến tương đương.
 
 **4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+Kỳ thực tập giúp mình làm chủ tư duy thiết kế hệ thống (System Design), thành thạo các công cụ tự động hóa CI/CD, và rèn luyện tư duy xử lý sự cố (troubleshooting) chuyên sâu. Việc trực tiếp cấu hình hạ tầng AWS và đối mặt với các lỗi từ hệ thống thực tế là bài học quý giá nhất, giúp mình định hình lộ trình trở thành Kỹ sư Hạ tầng đám mây chuyên nghiệp.
 
 **5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+Tinh thần đồng đội tại FCAJ rất cao. Dù là môi trường làm việc kết hợp Online/Offline, các thành viên luôn duy trì sự kết nối chặt chẽ qua bảng tiến độ và các buổi Review. Mình cảm thấy sự tôn trọng chuyên môn lẫn nhau giữa đội ngũ Dev và Ops, đây là nền tảng quan trọng giúp dự án "Mini Social Network" nghiệm thu đúng tiến độ.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+**6. Chính sách & phúc lợi**  
+Chương trình tạo điều kiện linh hoạt về mặt thời gian, cho phép mình cân bằng giữa việc học tập tại trường và thực hiện các Task hạ tầng. Việc được tiếp cận trực tiếp với các dịch vụ AWS doanh nghiệp là một "phúc lợi" vô giá về mặt nghề nghiệp.
 
 
 ### Một số câu hỏi khác
 - **Điều bạn hài lòng nhất trong thời gian thực tập?**  
-  Điều khiến mình tự hào và hài lòng nhất là được "thực chiến" với các dịch vụ cốt lõi của AWS. Thay vì chỉ học lý thuyết, mình đã tự tay thiết kế hạ tầng, xử lý mượt mà luồng tự động hóa CI/CD, đóng gói ứng dụng đưa lên ECR và Fargate. Bên cạnh đó, sự linh hoạt và tinh thần gắn kết của các thành viên trong nhóm (dù có những lúc đăng ký nhưng chưa được duyệt trên FCAJ nên ra quán cà phê họp nhóm) cũng là một điểm sáng tuyệt vời.
+  Điều khiến mình tự hào nhất là được thực thi tư duy "Defense-in-depth" (Phòng thủ đa tầng) trên kiến trúc AWS. Từ việc quy hoạch dải mạng VPC, triển khai tường lửa WAF, đến quản lý cấu hình tập trung bằng Parameter Store thay vì Hardcode. Cảm giác được nhìn thấy luồng API chạy xuyên suốt từ Frontend qua WAF, ALB và ECS một cách bảo mật thực sự rất thoả mãn.
 
-- **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?**  
-  Mình mong muốn chương trình có thể cải thiện cơ chế duyệt lịch lên làm việc tại văn phòng AWS trực tiếp. Do hệ thống hiện tại chọn ngẫu nhiên nên đôi khi mình bị "MISS" nhiều tuần liên tục, dẫn đến việc thiếu hụt trải nghiệm không gian làm việc chuyên nghiệp cùng cả nhóm. Sẽ rất tuyệt nếu mỗi thực tập sinh đều được đảm bảo ít nhất 1-2 lần/1 tuần lên văn phòng trong suốt khóa.
+- **Điều bạn nghĩ chương trình cần cải thiện?**  
+  Mình đề xuất tối ưu hóa cơ chế đăng ký lịch lên làm việc Offline. Việc chọn slot ngẫu nhiên đôi khi dẫn đến tình trạng bỏ lỡ cơ hội làm việc trực tiếp cùng nhóm. Sẽ rất hiệu quả nếu có cơ chế ưu tiên slot (priority) dựa trên các cột mốc quan trọng của dự án (như tuần chuẩn bị Stress Test), giúp nhóm tối ưu được thời gian họp Demo và gỡ lỗi tại chỗ.
 
-- **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?**  
-  Chắc chắn là có! Đặc biệt với những bạn đam mê mảng Hệ thống, Mạng máy tính hoặc Cloud Computing. Chương trình không chỉ là nơi lý tưởng để chuyển hóa kiến thức từ các bài Lab hàn lâm thành kiến trúc dự án thực tế, mà còn giúp rèn luyện tư duy xử lý sự cố (troubleshooting) cực kỳ hiệu quả dưới áp lực công việc. 
+- **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không?**  
+  Chắc chắn là có. Đây là "lò luyện" tốt nhất cho những bạn đam mê mảng Network, Cloud Infrastructure và DevOps. Chương trình giúp sinh viên bứt phá khỏi vùng an toàn, đối mặt với áp lực thực tế và trang bị kỹ năng tư duy hệ thống đạt chuẩn doanh nghiệp ngay khi còn ngồi trên ghế nhà trường.
 
 
 ### Đề xuất & mong muốn
-- **Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?**  
-  Mình đề xuất team FCAJ có thể tổ chức thêm các buổi Workshop hoặc Q&A chuyên sâu về kỹ năng "Bắt lỗi" (Troubleshooting) khi hệ thống gặp sự cố tải nặng hoặc nghẽn mạng ảo (VPC/Subnet). Ngoài ra, nếu tăng thêm quota (số lượng slot) gặp gỡ Offline thì việc phối hợp chạy Demo giữa các thành viên sẽ còn bùng nổ hơn nữa.
+- **Bạn có đề xuất gì để cải thiện trải nghiệm?**  
+  Nên tổ chức thêm các buổi Tech-talk chuyên sâu về Troubleshooting nâng cao (ví dụ: gỡ lỗi xung đột Route Tables hoặc xử lý nghẽn băng thông trên NAT Gateway). Ngoài ra, nếu có thêm các buổi Workshop hướng dẫn "CodeReview hạ tầng" giữa các nhóm thì mình tin rằng khả năng thiết kế hệ thống của thực tập sinh sẽ còn bùng nổ hơn nữa.
 
 - **Bạn có muốn tiếp tục chương trình này trong tương lai?**
-  Mình rất mong muốn được tiếp tục đồng hành nếu chương trình có lộ trình phát triển nâng cao hơn (ví dụ như hướng tới các chứng chỉ chuyên sâu cấp độ Solutions Architect) hoặc mở ra các cơ hội cộng tác lâu dài.
+  Rất mong muốn được đồng hành với cộng đồng FCAJ trong các lộ trình nâng cao (như chứng chỉ AWS Solutions Architect Professional) hoặc tham gia vào các dự án vận hành thực tế dài hạn.
 
-- **Góp ý khác (tự do chia sẻ):**
-  Cảm ơn đội ngũ FCAJ đã tạo ra một môi trường cọ xát vô cùng giá trị. Những sự kiện như cuộc thi "Cloud Architect" hay buổi "Community Day" đã truyền cho mình nguồn cảm hứng rất lớn để theo đuổi con đường kỹ sư điện toán đám mây chuyên nghiệp. Chúc chương trình ngày càng phát triển vững mạnh!
+- **Góp ý khác:**
+  Cảm ơn đội ngũ FCAJ đã tạo ra một sân chơi công nghệ vô cùng chất lượng. Những sự kiện như "Cloud Architect Competition" đã truyền cho mình nguồn cảm hứng rất lớn để gắn bó với con đường kỹ sư điện toán đám mây. Chúc chương trình ngày càng phát triển mạnh mẽ!

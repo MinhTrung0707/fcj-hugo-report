@@ -14,7 +14,7 @@ pre: " <b> 1.1. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 2 | - Nhận Database Schema và tính toán tài nguyên <br>&emsp; + Phân tích cấu trúc DB từ team Backend <br>&emsp; + Tính toán dung lượng RAM/CPU sơ bộ cho RDS và ECS để tối ưu chi phí | 20/04/2026 | 21/04/2026 | Tài liệu nhóm |
-| 4 | - Xây dựng kịch bản triển khai (Containerization) <br>&emsp; + Viết file `docker-compose.yml` tạm cho Frontend, Backend và Database <br>&emsp; + Tối ưu hóa Dockerfile Backend (Maven build, JRE) và Frontend (Nginx) | 22/04/2026 | 23/04/2026 | Docker Docs |
+| 4 | - Xây dựng kịch bản triển khai (Containerization) <br>&emsp; + Viết file `docker-compose.yml` tạm cho Frontend, Backend và Database <br>&emsp; + Tối ưu hóa Dockerfile Backend (Maven build, JRE) và Frontend (Nginx) | 22/04/2026 | 23/04/2026 | Tài liệu nhóm |
 | 6 | - Kiểm tra và đóng gói <br>&emsp; + Chạy thử nghiệm hệ thống bằng Docker Compose <br>&emsp; + Kiểm tra cấu hình port và kết nối giữa các container | 24/04/2026 | 25/04/2026 
 
 ### Kết quả đạt được tuần 1:

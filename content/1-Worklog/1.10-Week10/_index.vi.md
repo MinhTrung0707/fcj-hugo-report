@@ -15,7 +15,7 @@ pre: " <b> 1.10. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 2 | - Rà soát mã nguồn hạ tầng (IaC) <br>&emsp; + Phân tích và kiểm tra toàn bộ file YAML cấu hình mạng (VPC, Subnet, Route Table) do team cung cấp. <br>&emsp; + Tổng hợp các điểm chưa hợp lý, đối chiếu cấu trúc và lập báo cáo đánh giá, đề xuất chỉnh sửa file YAML. | 22/06/2026 | 23/06/2026 | |
-| 4 | - Hoàn thiện Sơ đồ Kiến trúc <br>&emsp; + Cập nhật và tinh chỉnh sơ đồ kiến trúc (Minisocial Architect) phiên bản chốt hạ dựa trên hạ tầng thực tế sau khi Rebuild. <br>&emsp; + Bổ sung đầy đủ các luồng kết nối và dịch vụ mới (NAT Gateway, S3 VPC Endpoint) vào bản vẽ. | 24/06/2026 | 25/06/2026 | 	https://aws.amazon.com/vi/architecture/icons/ |
+| 4 | - Hoàn thiện Sơ đồ Kiến trúc <br>&emsp; + Cập nhật và tinh chỉnh sơ đồ kiến trúc (Minisocial Architect) phiên bản chốt hạ dựa trên hạ tầng thực tế sau khi Rebuild. <br>&emsp; + Bổ sung đầy đủ các luồng kết nối và dịch vụ mới (NAT Gateway, S3 VPC Endpoint) vào bản vẽ. | 24/06/2026 | 25/06/2026 | 	[AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
 | 6 | - Đánh giá bảo mật luồng mạng đám mây (Network Security Review) <br>&emsp; + Rà soát lại toàn bộ Inbound/Outbound rules của Security Group và Network ACL trên VPC để đảm bảo không bị hở các port không cần thiết ở lớp Public Subnet. <br>&emsp; + Kiểm tra luồng kết nối mạng nội bộ giữa cụm Compute (Amazon ECS Fargate) và Database (Amazon RDS) để đảm bảo tính an toàn dữ liệu. | 26/06/2026 | 26/06/2026 |  |
 
 ### Kết quả đạt được tuần 10:
@@ -23,7 +23,7 @@ pre: " <b> 1.10. </b> "
 * Xuất bản thành công Sơ đồ Kiến trúc (Architecture Diagram) phiên bản hoàn chỉnh nhất, phản ánh chính xác 100% hạ tầng mạng hiện tại.
 * Hoàn tất rà soát bảo mật hạ tầng mạng, cập nhật trạng thái công việc thành hoàn tất (DONE) đúng thời hạn (Deadline 23:59 ngày 23/06).
 
-### Hoạt động khác / Minh chứng thực hiện:
+### Minh chứng thực hiện:
 
 #### 1. Hoàn thành Task phân công Tuần 10
 Đã hoàn tất các hạng mục "Phân tích và kiểm tra toàn bộ file YAML" và "Hoàn thiện sơ đồ Architect". Trạng thái công việc trên hệ thống theo dõi của nhóm đã chuyển sang xanh (DONE). 

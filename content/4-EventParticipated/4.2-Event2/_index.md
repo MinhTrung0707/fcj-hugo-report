@@ -1,14 +1,14 @@
 ---
-title: "Cloud Architect"
+title: "EVENT 2"
 date: 2026-06-20
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
+# Cloud Architect
 
 ![Event check-in picture](/images/Evt_2.png)
 
-# Reflection Report: "Cloud Architect" Competition
 
 **Role:** Competitor (PrimeOps Team Member)
 

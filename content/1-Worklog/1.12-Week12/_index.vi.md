@@ -13,15 +13,15 @@ pre: " <b> 1.12. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Phân tích, rà soát sơ đồ kiến trúc Minisocial Architect <br>&emsp; + Đánh giá hiện trạng hạ tầng mạng (VPC, Subnets, Traffic Optimization). <br>&emsp; + Nhận diện các điểm giới hạn của hạ tầng (chỉ sử dụng 1 NAT Gateway ở AZ A và Single-AZ cho RDS). Đánh giá rủi ro và quyết định giữ nguyên cấu trúc này để đảm bảo tối ưu chi phí cho quy mô hiện tại của dự án. | 06/07/2026 | 06/07/2026 | Sơ đồ hệ thống hiện hành |
-| 3 | - Chốt sơ đồ Final và nộp báo cáo <br>&emsp; + Tinh chỉnh sơ đồ: Làm gọn layout, căn chỉnh lại các đường line kết nối để làm rõ luồng giao tiếp Logic và Physical (đặc biệt là luồng Outbound Traffic qua NAT Gateway). <br>&emsp; + Hoàn thiện Hugo Server & Báo cáo thực tập, tiến hành kiểm tra chéo (Cross-check) và nộp trước hạn (Deadline 23:59 t3 07/07). | 07/07/2026 | 07/07/2026 | Sơ đồ Draw.io / Nền tảng nội bộ |
+| 2 | - Phân tích, rà soát sơ đồ kiến trúc Minisocial Architect <br>&emsp; + Đánh giá hiện trạng hạ tầng mạng (VPC, Subnets, Traffic Optimization). <br>&emsp; + Nhận diện các điểm giới hạn của hạ tầng (chỉ sử dụng 1 NAT Gateway ở AZ A và Single-AZ cho RDS). Đánh giá rủi ro và quyết định giữ nguyên cấu trúc này để đảm bảo tối ưu chi phí cho quy mô hiện tại của dự án. | 06/07/2026 | 06/07/2026 | [Sơ Đồ Đã Chỉnh Sửa](https://mini-social-architect.s3.ap-southeast-1.amazonaws.com/MiniSocial-Architect-ToiUuChiPhi.png) |
+| 3 | - Chốt sơ đồ Final và nộp báo cáo <br>&emsp; + Tinh chỉnh sơ đồ: Làm gọn layout, căn chỉnh lại các đường line kết nối để làm rõ luồng giao tiếp Logic và Physical (đặc biệt là luồng Outbound Traffic qua NAT Gateway). <br>&emsp; + Hoàn thiện Hugo Server & Báo cáo thực tập, tiến hành kiểm tra chéo (Cross-check) và nộp trước hạn (Deadline 23:59 t3 07/07). | 07/07/2026 | 07/07/2026 | [Sơ Đồ Đã Hoàn Thiện](https://mini-social-architect.s3.ap-southeast-1.amazonaws.com/MiniSocial-Architect-ToiUuChiPhi.png) |
 
 ### Kết quả đạt được tuần 12:
 * Hoàn thành rà soát chuyên sâu và chốt Sơ đồ Kiến trúc Minisocial Architect phiên bản Final (bảo toàn cấu trúc hạ tầng hiện hành để tối ưu ngân sách, hoàn thiện mặt trình bày trực quan).
 * Thực hiện nghiêm túc việc kiểm tra chéo (Cross-check) tài liệu theo quy định của nhóm, đảm bảo không có sai sót.
 * Hoàn thiện toàn bộ nội dung và nộp thành công Hugo Server cùng Báo cáo thực tập đúng thời hạn (hoàn tất trước 23:59 Thứ Ba, ngày 07/07/2026).
 
-### Hoạt động khác / Minh chứng thực hiện:
+### Minh chứng thực hiện:
 
 #### 1. Bảng phân công nhiệm vụ Tuần 12
 Ghi nhận phân công công việc của giai đoạn Graceful Shutdown & Documentation. Các task "Phân tích, rà soát, chỉnh sửa bản final của sơ đồ kiến trúc Minisocial Architect" và hoàn thiện báo cáo đã được xử lý đúng hạn. 

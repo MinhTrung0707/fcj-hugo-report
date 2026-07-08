@@ -12,11 +12,11 @@ pre: " <b> 1.7. </b> "
 * Soạn thảo chi tiết kịch bản bài thuyết trình bảo vệ kiến trúc dự án.
 
 ### Các công việc thực hiện trong tuần:
-| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 01/06 | - Hoàn thiện Sơ đồ Kiến trúc <br>&emsp; + Thiết kế sơ đồ bao gồm ranh giới VPC, Public/Private Subnets, ALB, ECS Fargate, RDS và NAT Gateway. | 01/06/2026 | 03/06/2026 | https://aws.amazon.com/vi/architecture/icons/ |
-| 04/06 | - Phân tích Luồng Dữ liệu (Traffic Flows) <br>&emsp; + Bóc tách luồng User Access (1-7) và luồng CI/CD & Monitoring (8-10, A-B). | 04/06/2026 | 05/06/2026 | [AWS Whitepapers](https://aws.amazon.com/whitepapers/) |
-| 06/06 | - Viết kịch bản Thuyết trình <br>&emsp; + Đóng gói toàn bộ tài liệu thành bài viết thảo luận chuyên sâu về kiến trúc Mạng xã hội quy mô nhỏ. | 06/06/2026 | 07/06/2026 |  |
+| 2 | - Hoàn thiện Sơ đồ Kiến trúc <br>&emsp; + Thiết kế sơ đồ bao gồm ranh giới VPC, Public/Private Subnets, ALB, ECS Fargate, RDS và NAT Gateway. | 01/06/2026 | 03/06/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| 5 | - Phân tích Luồng Dữ liệu (Traffic Flows) <br>&emsp; + Bóc tách luồng User Access (1-7) và luồng CI/CD & Monitoring (8-10, A-B). | 04/06/2026 | 05/06/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| 7 | - Viết kịch bản Thuyết trình <br>&emsp; + Đóng gói toàn bộ tài liệu thành bài viết thảo luận chuyên sâu về kiến trúc Mạng xã hội quy mô nhỏ. | 06/06/2026 | 07/06/2026 |  |
 
 ### Kết quả đạt được tuần 7:
 * Hoàn thiện 100% sơ đồ kiến trúc hệ thống mạng nội bộ cô lập chuẩn AWS.

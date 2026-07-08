@@ -25,7 +25,7 @@ pre: " <b> 1.4. </b> "
 * Gained the ability to perform practical operations on the AWS Management Console through lab exercises, clearly understanding virtual network routing mechanisms.
 * Completed the draft IP address (CIDR) planning and firewall rules (Security Group) system, ready to integrate with ALB and S3 components from other members for the DEMO.
 
-### Other Activities / Implementation Evidence:
+### Implementation Evidence:
 
 #### 1. Week 4 Task Assignment Board
 Records the completion status (DONE) of theoretical learning and Lab practice tasks. 

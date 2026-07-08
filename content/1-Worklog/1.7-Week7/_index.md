@@ -12,11 +12,11 @@ pre: " <b> 1.7. </b> "
 * Draft a detailed presentation script for defending the project's architecture.
 
 ### Tasks to be implemented this week:
-| Date | Task | Start Date | End Date | References |
+| Day| Task | Start Date | End Date | References |
 | --- | --- | --- | --- | --- |
-| Jun 01 | - Finalize Architecture Diagram <br>&emsp; + Design a diagram encompassing VPC boundaries, Public/Private Subnets, ALB, ECS Fargate, RDS, and NAT Gateway. | 06/01/2026 | 06/03/2026 | https://aws.amazon.com/vi/architecture/icons/ |
-| Jun 04 | - Analyze Traffic Flows <br>&emsp; + Breakdown the User Access flow (1-7) and the CI/CD & Monitoring pipeline (8-10, A-B). | 06/04/2026 | 06/05/2026 | [AWS Whitepapers](https://aws.amazon.com/whitepapers/) |
-| Jun 06 | - Write Presentation Script <br>&emsp; + Compile all documentation into an in-depth architectural discussion regarding the small-scale Social Network. | 06/06/2026 | 06/07/2026 |  |
+| Mon | - Finalize Architecture Diagram <br>&emsp; + Design a diagram encompassing VPC boundaries, Public/Private Subnets, ALB, ECS Fargate, RDS, and NAT Gateway. | 06/01/2026 | 06/03/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| Thur | - Analyze Traffic Flows <br>&emsp; + Breakdown the User Access flow (1-7) and the CI/CD & Monitoring pipeline (8-10, A-B). | 06/04/2026 | 06/05/2026 | [AWS Architecture Icons](https://aws.amazon.com/vi/architecture/icons/) |
+| Sat | - Write Presentation Script <br>&emsp; + Compile all documentation into an in-depth architectural discussion regarding the small-scale Social Network. | 06/06/2026 | 06/07/2026 |  |
 
 ### Week 7 Achievements:
 * 100% completion of the isolated internal network architecture diagram adhering to AWS standards.

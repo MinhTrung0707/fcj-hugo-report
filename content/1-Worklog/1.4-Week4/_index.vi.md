@@ -25,7 +25,7 @@ pre: " <b> 1.4. </b> "
 * Có khả năng thao tác thực tế trên giao diện AWS Management Console qua các bài thực hành, nắm rõ cơ chế định tuyến mạng ảo.
 * Hoàn tất bản nháp quy hoạch địa chỉ IP (CIDR) và hệ thống luật tường lửa (Security Group), sẵn sàng tích hợp với các thành phần ALB, S3 của các thành viên khác cho bản DEMO.
 
-### Hoạt động khác / Minh chứng thực hiện:
+### Minh chứng thực hiện:
 
 #### 1. Bảng phân công công việc Tuần 4
 Ghi nhận trạng thái hoàn thành (DONE) nhiệm vụ học lý thuyết và thực hành Lab. 
