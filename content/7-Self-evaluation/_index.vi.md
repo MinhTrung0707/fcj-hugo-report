@@ -1,9 +1,9 @@
 ---
 title: "Tự đánh giá"
 date: 2024-01-01
-weight: 6
+weight: 7
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 7. </b> "
 ---
 
 Trong suốt thời gian thực tập tại **Bootcamp First Cloud AI Journey** từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  

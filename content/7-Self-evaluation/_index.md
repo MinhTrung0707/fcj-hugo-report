@@ -1,9 +1,9 @@
 ---
 title: "Self-evaluation"
 date: 2024-01-01
-weight: 6
+weight: 7
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 7. </b> "
 ---
 
 During my internship at **Bootcamp First Cloud AI Journey** from **April 17, 2026** to **July 10, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired at university to a real-world working environment.  
