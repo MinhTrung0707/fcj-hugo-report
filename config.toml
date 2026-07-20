@@ -1,5 +1,5 @@
-baseURL = "https://workshop-sample.fcjuni.com/"
-relativeURLs = false
+baseURL = "https://minhtrung0707.github.io/fcj-hugo-report/"
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
