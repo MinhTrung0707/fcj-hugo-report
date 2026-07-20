@@ -1,4 +1,4 @@
-baseURL = "https://minhtrung0707.github.io/fcj-hugo-report/"
+baseURL = "https://minhtrung0707.github.io/"
 relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
