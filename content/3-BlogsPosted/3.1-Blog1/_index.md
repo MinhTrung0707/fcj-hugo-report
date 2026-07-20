@@ -85,7 +85,7 @@ Despite the highly specialized and specific nature of the article, the team was 
 * **Direction:** The team decided to migrate from Jenkins to a GitHub Actions deployment configuration in Phase 2 to save EC2 costs.
 
 ---
-![Mini Social Network Architecture Diagram](/images/3-BlogsPosted/Architecture_Diagram_V1.png)
+![Mini Social Network Architecture Diagram](/images/Architecture_Diagram_V1.png)
 
 > **References:**
 > * Logical Architecture Diagram (Full HD): [View details here](https://mini-social-architect.s3.ap-southeast-1.amazonaws.com/MiniSocial-Architect.png)
