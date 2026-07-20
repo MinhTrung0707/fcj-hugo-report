@@ -16,7 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "thienlh@thienlu.com"
+  author = "Phan Nguyen Minh Trung"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -43,6 +43,9 @@ weight = 20
 title = "Báo cáo thực tập"
 weight = 2
 languageName = "Tiếng Việt"
+# Thêm dòng này để khi bấm sang tiếng Việt mà chưa có bài dịch riêng, 
+# nó sẽ tự động fallback về hiển thị nội dung tiếng Anh thay vì báo lỗi 404
+languageCode = "vi"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
